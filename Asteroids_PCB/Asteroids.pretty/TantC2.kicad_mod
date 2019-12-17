@@ -1,0 +1,10 @@
+(module TantC2 (layer F.Cu) (tedit 5B84BE93)
+  (fp_text reference REF** (at 5.08 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value TantC2 (at -3.81 0) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole rect (at 10.16 0) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at -8.89 0) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask))
+)

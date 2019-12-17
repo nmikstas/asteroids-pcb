@@ -1,0 +1,9 @@
+(module TPAD (layer F.Cu) (tedit 5C46263E)
+  (fp_text reference REF** (at -1.27 0) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.03175)))
+  )
+  (fp_text value TPAD (at 1.27 0) (layer F.Fab) hide
+    (effects (font (size 0.127 0.127) (thickness 0.03175)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask))
+)

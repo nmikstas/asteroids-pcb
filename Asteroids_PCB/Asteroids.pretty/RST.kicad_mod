@@ -1,0 +1,10 @@
+(module RST (layer F.Cu) (tedit 5B29C076)
+  (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value RST (at 0 -2.54) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at -2.54 0) (size 3.175 3.175) (drill 1.27) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 2.54 0) (size 3.175 3.175) (drill 1.27) (layers *.Cu *.Mask))
+)

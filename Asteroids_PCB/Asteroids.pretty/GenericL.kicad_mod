@@ -1,0 +1,10 @@
+(module GenericL (layer F.Cu) (tedit 5C3FD71C)
+  (fp_text reference REF** (at 3.81 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value GenericL (at -2.54 0) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 7.62 0) (size 2.54 2.54) (drill 1.016) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at -7.62 0) (size 2.54 2.54) (drill 1.016) (layers *.Cu *.Mask))
+)

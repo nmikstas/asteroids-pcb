@@ -1,0 +1,10 @@
+(module Electrolytic1 (layer F.Cu) (tedit 5B3C55D8)
+  (fp_text reference C19 (at 0 3.81 90) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 100uF (at 0 -5.08 90) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole rect (at 0 14.605) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 0 -12.7) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask))
+)

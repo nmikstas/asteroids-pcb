@@ -1,0 +1,5328 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Asteroids
+LIBS:Asteroids_PCB-cache
+EELAYER 25 0
+EELAYER END
+$Descr User 39370 19685
+encoding utf-8
+Sheet 2 4
+Title "Asteroids Microprocessor"
+Date ""
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 6502A C_3
+U 1 1 5AFCE6C3
+P 20075 6725
+F 0 "C_3" H 20075 7125 60  0000 C CNN
+F 1 "6502A" H 20075 7275 60  0000 C CNN
+F 2 "Asteroids:6502A" H 19725 7025 60  0001 C CNN
+F 3 "" H 19725 7025 60  0001 C CNN
+	1    20075 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR01
+U 1 1 5AFCEF78
+P 20075 4575
+F 0 "#PWR01" H 20075 4425 50  0001 C CNN
+F 1 "+5V" H 20075 4715 50  0000 C CNN
+F 2 "" H 20075 4575 50  0001 C CNN
+F 3 "" H 20075 4575 50  0001 C CNN
+	1    20075 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5AFCF049
+P 20125 8875
+F 0 "#PWR02" H 20125 8625 50  0001 C CNN
+F 1 "GND" H 20125 8725 50  0000 C CNN
+F 2 "" H 20125 8875 50  0001 C CNN
+F 3 "" H 20125 8875 50  0001 C CNN
+	1    20125 8875
+	1    0    0    -1  
+$EndComp
+$Comp
+L 82S137 J_2
+U 1 1 5AFE7DC5
+P 3050 16850
+F 0 "J_2" V 3100 16825 60  0000 C CNN
+F 1 "82S137" V 2975 16850 60  0000 C CNN
+F 2 "Asteroids:82S137" H 3500 17550 60  0001 C CNN
+F 3 "" H 3500 17550 60  0001 C CNN
+	1    3050 16850
+	1    0    0    -1  
+$EndComp
+Text GLabel 3650 16725 2    60   Input ~ 0
+DB7
+Text GLabel 3650 16825 2    60   Input ~ 0
+DB6
+Text GLabel 3650 16925 2    60   Input ~ 0
+DB5
+Text GLabel 3650 17025 2    60   Input ~ 0
+DB4
+Text GLabel 2450 16425 0    60   Input ~ 0
+AB9
+Text GLabel 2450 16525 0    60   Input ~ 0
+AB8
+Text GLabel 2450 16625 0    60   Input ~ 0
+AB7
+Text GLabel 2450 16725 0    60   Input ~ 0
+AB6
+Text GLabel 2450 16825 0    60   Input ~ 0
+AB5
+Text GLabel 2450 16925 0    60   Input ~ 0
+AB4
+Text GLabel 2450 17025 0    60   Input ~ 0
+AB3
+Text GLabel 2450 17125 0    60   Input ~ 0
+AB2
+Text GLabel 2450 17225 0    60   Input ~ 0
+AB1
+Text GLabel 2450 17325 0    60   Input ~ 0
+AB0
+$Comp
+L GND #PWR03
+U 1 1 5AFEB8DF
+P 3125 17700
+F 0 "#PWR03" H 3125 17450 50  0001 C CNN
+F 1 "GND" H 3125 17550 50  0000 C CNN
+F 2 "" H 3125 17700 50  0001 C CNN
+F 3 "" H 3125 17700 50  0001 C CNN
+	1    3125 17700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR04
+U 1 1 5AFEBC0E
+P 3125 16050
+F 0 "#PWR04" H 3125 15900 50  0001 C CNN
+F 1 "+5V" H 3125 16190 50  0000 C CNN
+F 2 "" H 3125 16050 50  0001 C CNN
+F 3 "" H 3125 16050 50  0001 C CNN
+	1    3125 16050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 82S137 N_2
+U 1 1 5AFEC2FB
+P 4850 16850
+F 0 "N_2" V 4900 16825 60  0000 C CNN
+F 1 "82S137" V 4775 16850 60  0000 C CNN
+F 2 "Asteroids:82S137" H 5300 17550 60  0001 C CNN
+F 3 "" H 5300 17550 60  0001 C CNN
+	1    4850 16850
+	1    0    0    -1  
+$EndComp
+Text GLabel 5450 16725 2    60   Input ~ 0
+DB7
+Text GLabel 5450 16825 2    60   Input ~ 0
+DB6
+Text GLabel 5450 16925 2    60   Input ~ 0
+DB5
+Text GLabel 5450 17025 2    60   Input ~ 0
+DB4
+Text GLabel 4250 16425 0    60   Input ~ 0
+AB9
+Text GLabel 4250 16525 0    60   Input ~ 0
+AB8
+Text GLabel 4250 16625 0    60   Input ~ 0
+AB7
+Text GLabel 4250 16725 0    60   Input ~ 0
+AB6
+Text GLabel 4250 16825 0    60   Input ~ 0
+AB5
+Text GLabel 4250 16925 0    60   Input ~ 0
+AB4
+Text GLabel 4250 17025 0    60   Input ~ 0
+AB3
+Text GLabel 4250 17125 0    60   Input ~ 0
+AB2
+Text GLabel 4250 17225 0    60   Input ~ 0
+AB1
+Text GLabel 4250 17325 0    60   Input ~ 0
+AB0
+$Comp
+L GND #PWR05
+U 1 1 5AFEC31D
+P 4925 17700
+F 0 "#PWR05" H 4925 17450 50  0001 C CNN
+F 1 "GND" H 4925 17550 50  0000 C CNN
+F 2 "" H 4925 17700 50  0001 C CNN
+F 3 "" H 4925 17700 50  0001 C CNN
+	1    4925 17700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR06
+U 1 1 5AFEC324
+P 4925 16050
+F 0 "#PWR06" H 4925 15900 50  0001 C CNN
+F 1 "+5V" H 4925 16190 50  0000 C CNN
+F 2 "" H 4925 16050 50  0001 C CNN
+F 3 "" H 4925 16050 50  0001 C CNN
+	1    4925 16050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 82S137 H_2
+U 1 1 5AFECD17
+P 6650 16850
+F 0 "H_2" V 6700 16825 60  0000 C CNN
+F 1 "82S137" V 6575 16850 60  0000 C CNN
+F 2 "Asteroids:82S137" H 7100 17550 60  0001 C CNN
+F 3 "" H 7100 17550 60  0001 C CNN
+	1    6650 16850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7250 16725 2    60   Input ~ 0
+DB7
+Text GLabel 7250 16825 2    60   Input ~ 0
+DB6
+Text GLabel 7250 16925 2    60   Input ~ 0
+DB5
+Text GLabel 7250 17025 2    60   Input ~ 0
+DB4
+Text GLabel 6050 16425 0    60   Input ~ 0
+AB9
+Text GLabel 6050 16525 0    60   Input ~ 0
+AB8
+Text GLabel 6050 16625 0    60   Input ~ 0
+AB7
+Text GLabel 6050 16725 0    60   Input ~ 0
+AB6
+Text GLabel 6050 16825 0    60   Input ~ 0
+AB5
+Text GLabel 6050 16925 0    60   Input ~ 0
+AB4
+Text GLabel 6050 17025 0    60   Input ~ 0
+AB3
+Text GLabel 6050 17125 0    60   Input ~ 0
+AB2
+Text GLabel 6050 17225 0    60   Input ~ 0
+AB1
+Text GLabel 6050 17325 0    60   Input ~ 0
+AB0
+$Comp
+L GND #PWR07
+U 1 1 5AFECD39
+P 6725 17700
+F 0 "#PWR07" H 6725 17450 50  0001 C CNN
+F 1 "GND" H 6725 17550 50  0000 C CNN
+F 2 "" H 6725 17700 50  0001 C CNN
+F 3 "" H 6725 17700 50  0001 C CNN
+	1    6725 17700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR08
+U 1 1 5AFECD40
+P 6725 16050
+F 0 "#PWR08" H 6725 15900 50  0001 C CNN
+F 1 "+5V" H 6725 16190 50  0000 C CNN
+F 2 "" H 6725 16050 50  0001 C CNN
+F 3 "" H 6725 16050 50  0001 C CNN
+	1    6725 16050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 82S137 M_2
+U 1 1 5AFECD47
+P 8450 16850
+F 0 "M_2" V 8500 16825 60  0000 C CNN
+F 1 "82S137" V 8375 16850 60  0000 C CNN
+F 2 "Asteroids:82S137" H 8900 17550 60  0001 C CNN
+F 3 "" H 8900 17550 60  0001 C CNN
+	1    8450 16850
+	1    0    0    -1  
+$EndComp
+Text GLabel 9050 16725 2    60   Input ~ 0
+DB7
+Text GLabel 9050 16825 2    60   Input ~ 0
+DB6
+Text GLabel 9050 16925 2    60   Input ~ 0
+DB5
+Text GLabel 9050 17025 2    60   Input ~ 0
+DB4
+Text GLabel 7850 16425 0    60   Input ~ 0
+AB9
+Text GLabel 7850 16525 0    60   Input ~ 0
+AB8
+Text GLabel 7850 16625 0    60   Input ~ 0
+AB7
+Text GLabel 7850 16725 0    60   Input ~ 0
+AB6
+Text GLabel 7850 16825 0    60   Input ~ 0
+AB5
+Text GLabel 7850 16925 0    60   Input ~ 0
+AB4
+Text GLabel 7850 17025 0    60   Input ~ 0
+AB3
+Text GLabel 7850 17125 0    60   Input ~ 0
+AB2
+Text GLabel 7850 17225 0    60   Input ~ 0
+AB1
+Text GLabel 7850 17325 0    60   Input ~ 0
+AB0
+$Comp
+L GND #PWR09
+U 1 1 5AFECD69
+P 8525 17700
+F 0 "#PWR09" H 8525 17450 50  0001 C CNN
+F 1 "GND" H 8525 17550 50  0000 C CNN
+F 2 "" H 8525 17700 50  0001 C CNN
+F 3 "" H 8525 17700 50  0001 C CNN
+	1    8525 17700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR010
+U 1 1 5AFECD70
+P 8525 16050
+F 0 "#PWR010" H 8525 15900 50  0001 C CNN
+F 1 "+5V" H 8525 16190 50  0000 C CNN
+F 2 "" H 8525 16050 50  0001 C CNN
+F 3 "" H 8525 16050 50  0001 C CNN
+	1    8525 16050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 82S137 F_2
+U 1 1 5AFED43A
+P 10250 16850
+F 0 "F_2" V 10300 16825 60  0000 C CNN
+F 1 "82S137" V 10175 16850 60  0000 C CNN
+F 2 "Asteroids:82S137" H 10700 17550 60  0001 C CNN
+F 3 "" H 10700 17550 60  0001 C CNN
+	1    10250 16850
+	1    0    0    -1  
+$EndComp
+Text GLabel 10850 16725 2    60   Input ~ 0
+DB7
+Text GLabel 10850 16825 2    60   Input ~ 0
+DB6
+Text GLabel 10850 16925 2    60   Input ~ 0
+DB5
+Text GLabel 10850 17025 2    60   Input ~ 0
+DB4
+Text GLabel 9650 16425 0    60   Input ~ 0
+AB9
+Text GLabel 9650 16525 0    60   Input ~ 0
+AB8
+Text GLabel 9650 16625 0    60   Input ~ 0
+AB7
+Text GLabel 9650 16725 0    60   Input ~ 0
+AB6
+Text GLabel 9650 16825 0    60   Input ~ 0
+AB5
+Text GLabel 9650 16925 0    60   Input ~ 0
+AB4
+Text GLabel 9650 17025 0    60   Input ~ 0
+AB3
+Text GLabel 9650 17125 0    60   Input ~ 0
+AB2
+Text GLabel 9650 17225 0    60   Input ~ 0
+AB1
+Text GLabel 9650 17325 0    60   Input ~ 0
+AB0
+$Comp
+L GND #PWR011
+U 1 1 5AFED45C
+P 10325 17700
+F 0 "#PWR011" H 10325 17450 50  0001 C CNN
+F 1 "GND" H 10325 17550 50  0000 C CNN
+F 2 "" H 10325 17700 50  0001 C CNN
+F 3 "" H 10325 17700 50  0001 C CNN
+	1    10325 17700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR012
+U 1 1 5AFED463
+P 10325 16050
+F 0 "#PWR012" H 10325 15900 50  0001 C CNN
+F 1 "+5V" H 10325 16190 50  0000 C CNN
+F 2 "" H 10325 16050 50  0001 C CNN
+F 3 "" H 10325 16050 50  0001 C CNN
+	1    10325 16050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 82S137 L_2
+U 1 1 5AFED46A
+P 12050 16850
+F 0 "L_2" V 12100 16825 60  0000 C CNN
+F 1 "82S137" V 11975 16850 60  0000 C CNN
+F 2 "Asteroids:82S137" H 12500 17550 60  0001 C CNN
+F 3 "" H 12500 17550 60  0001 C CNN
+	1    12050 16850
+	1    0    0    -1  
+$EndComp
+Text GLabel 12650 16725 2    60   Input ~ 0
+DB7
+Text GLabel 12650 16825 2    60   Input ~ 0
+DB6
+Text GLabel 12650 16925 2    60   Input ~ 0
+DB5
+Text GLabel 12650 17025 2    60   Input ~ 0
+DB4
+Text GLabel 11450 16425 0    60   Input ~ 0
+AB9
+Text GLabel 11450 16525 0    60   Input ~ 0
+AB8
+Text GLabel 11450 16625 0    60   Input ~ 0
+AB7
+Text GLabel 11450 16725 0    60   Input ~ 0
+AB6
+Text GLabel 11450 16825 0    60   Input ~ 0
+AB5
+Text GLabel 11450 16925 0    60   Input ~ 0
+AB4
+Text GLabel 11450 17025 0    60   Input ~ 0
+AB3
+Text GLabel 11450 17125 0    60   Input ~ 0
+AB2
+Text GLabel 11450 17225 0    60   Input ~ 0
+AB1
+Text GLabel 11450 17325 0    60   Input ~ 0
+AB0
+$Comp
+L GND #PWR013
+U 1 1 5AFED48C
+P 12125 17700
+F 0 "#PWR013" H 12125 17450 50  0001 C CNN
+F 1 "GND" H 12125 17550 50  0000 C CNN
+F 2 "" H 12125 17700 50  0001 C CNN
+F 3 "" H 12125 17700 50  0001 C CNN
+	1    12125 17700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR014
+U 1 1 5AFED493
+P 12125 16050
+F 0 "#PWR014" H 12125 15900 50  0001 C CNN
+F 1 "+5V" H 12125 16190 50  0000 C CNN
+F 2 "" H 12125 16050 50  0001 C CNN
+F 3 "" H 12125 16050 50  0001 C CNN
+	1    12125 16050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 82S137 K_1
+U 1 1 5AFEE193
+P 13850 16850
+F 0 "K_1" V 13900 16825 60  0000 C CNN
+F 1 "82S137" V 13775 16850 60  0000 C CNN
+F 2 "Asteroids:82S137" H 14300 17550 60  0001 C CNN
+F 3 "" H 14300 17550 60  0001 C CNN
+	1    13850 16850
+	1    0    0    -1  
+$EndComp
+Text GLabel 13250 16425 0    60   Input ~ 0
+AB9
+Text GLabel 13250 16525 0    60   Input ~ 0
+AB8
+Text GLabel 13250 16625 0    60   Input ~ 0
+AB7
+Text GLabel 13250 16725 0    60   Input ~ 0
+AB6
+Text GLabel 13250 16825 0    60   Input ~ 0
+AB5
+Text GLabel 13250 16925 0    60   Input ~ 0
+AB4
+Text GLabel 13250 17025 0    60   Input ~ 0
+AB3
+Text GLabel 13250 17125 0    60   Input ~ 0
+AB2
+Text GLabel 13250 17225 0    60   Input ~ 0
+AB1
+Text GLabel 13250 17325 0    60   Input ~ 0
+AB0
+$Comp
+L GND #PWR015
+U 1 1 5AFEE1B5
+P 13925 17700
+F 0 "#PWR015" H 13925 17450 50  0001 C CNN
+F 1 "GND" H 13925 17550 50  0000 C CNN
+F 2 "" H 13925 17700 50  0001 C CNN
+F 3 "" H 13925 17700 50  0001 C CNN
+	1    13925 17700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR016
+U 1 1 5AFEE1BC
+P 13925 16050
+F 0 "#PWR016" H 13925 15900 50  0001 C CNN
+F 1 "+5V" H 13925 16190 50  0000 C CNN
+F 2 "" H 13925 16050 50  0001 C CNN
+F 3 "" H 13925 16050 50  0001 C CNN
+	1    13925 16050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 82S137 N_1
+U 1 1 5AFEE1C3
+P 15650 16850
+F 0 "N_1" V 15700 16825 60  0000 C CNN
+F 1 "82S137" V 15575 16850 60  0000 C CNN
+F 2 "Asteroids:82S137" H 16100 17550 60  0001 C CNN
+F 3 "" H 16100 17550 60  0001 C CNN
+	1    15650 16850
+	1    0    0    -1  
+$EndComp
+Text GLabel 15050 16425 0    60   Input ~ 0
+AB9
+Text GLabel 15050 16525 0    60   Input ~ 0
+AB8
+Text GLabel 15050 16625 0    60   Input ~ 0
+AB7
+Text GLabel 15050 16725 0    60   Input ~ 0
+AB6
+Text GLabel 15050 16825 0    60   Input ~ 0
+AB5
+Text GLabel 15050 16925 0    60   Input ~ 0
+AB4
+Text GLabel 15050 17025 0    60   Input ~ 0
+AB3
+Text GLabel 15050 17125 0    60   Input ~ 0
+AB2
+Text GLabel 15050 17225 0    60   Input ~ 0
+AB1
+Text GLabel 15050 17325 0    60   Input ~ 0
+AB0
+$Comp
+L GND #PWR017
+U 1 1 5AFEE1E5
+P 15725 17700
+F 0 "#PWR017" H 15725 17450 50  0001 C CNN
+F 1 "GND" H 15725 17550 50  0000 C CNN
+F 2 "" H 15725 17700 50  0001 C CNN
+F 3 "" H 15725 17700 50  0001 C CNN
+	1    15725 17700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR018
+U 1 1 5AFEE1EC
+P 15725 16050
+F 0 "#PWR018" H 15725 15900 50  0001 C CNN
+F 1 "+5V" H 15725 16190 50  0000 C CNN
+F 2 "" H 15725 16050 50  0001 C CNN
+F 3 "" H 15725 16050 50  0001 C CNN
+	1    15725 16050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 82S137 J_1
+U 1 1 5AFEE1F3
+P 17450 16850
+F 0 "J_1" V 17500 16825 60  0000 C CNN
+F 1 "82S137" V 17375 16850 60  0000 C CNN
+F 2 "Asteroids:82S137" H 17900 17550 60  0001 C CNN
+F 3 "" H 17900 17550 60  0001 C CNN
+	1    17450 16850
+	1    0    0    -1  
+$EndComp
+Text GLabel 16850 16425 0    60   Input ~ 0
+AB9
+Text GLabel 16850 16525 0    60   Input ~ 0
+AB8
+Text GLabel 16850 16625 0    60   Input ~ 0
+AB7
+Text GLabel 16850 16725 0    60   Input ~ 0
+AB6
+Text GLabel 16850 16825 0    60   Input ~ 0
+AB5
+Text GLabel 16850 16925 0    60   Input ~ 0
+AB4
+Text GLabel 16850 17025 0    60   Input ~ 0
+AB3
+Text GLabel 16850 17125 0    60   Input ~ 0
+AB2
+Text GLabel 16850 17225 0    60   Input ~ 0
+AB1
+Text GLabel 16850 17325 0    60   Input ~ 0
+AB0
+$Comp
+L GND #PWR019
+U 1 1 5AFEE215
+P 17525 17700
+F 0 "#PWR019" H 17525 17450 50  0001 C CNN
+F 1 "GND" H 17525 17550 50  0000 C CNN
+F 2 "" H 17525 17700 50  0001 C CNN
+F 3 "" H 17525 17700 50  0001 C CNN
+	1    17525 17700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR020
+U 1 1 5AFEE21C
+P 17525 16050
+F 0 "#PWR020" H 17525 15900 50  0001 C CNN
+F 1 "+5V" H 17525 16190 50  0000 C CNN
+F 2 "" H 17525 16050 50  0001 C CNN
+F 3 "" H 17525 16050 50  0001 C CNN
+	1    17525 16050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 82S137 M_1
+U 1 1 5AFEE223
+P 19250 16850
+F 0 "M_1" V 19300 16825 60  0000 C CNN
+F 1 "82S137" V 19175 16850 60  0000 C CNN
+F 2 "Asteroids:82S137" H 19700 17550 60  0001 C CNN
+F 3 "" H 19700 17550 60  0001 C CNN
+	1    19250 16850
+	1    0    0    -1  
+$EndComp
+Text GLabel 18650 16425 0    60   Input ~ 0
+AB9
+Text GLabel 18650 16525 0    60   Input ~ 0
+AB8
+Text GLabel 18650 16625 0    60   Input ~ 0
+AB7
+Text GLabel 18650 16725 0    60   Input ~ 0
+AB6
+Text GLabel 18650 16825 0    60   Input ~ 0
+AB5
+Text GLabel 18650 16925 0    60   Input ~ 0
+AB4
+Text GLabel 18650 17025 0    60   Input ~ 0
+AB3
+Text GLabel 18650 17125 0    60   Input ~ 0
+AB2
+Text GLabel 18650 17225 0    60   Input ~ 0
+AB1
+Text GLabel 18650 17325 0    60   Input ~ 0
+AB0
+$Comp
+L GND #PWR021
+U 1 1 5AFEE245
+P 19325 17700
+F 0 "#PWR021" H 19325 17450 50  0001 C CNN
+F 1 "GND" H 19325 17550 50  0000 C CNN
+F 2 "" H 19325 17700 50  0001 C CNN
+F 3 "" H 19325 17700 50  0001 C CNN
+	1    19325 17700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR022
+U 1 1 5AFEE24C
+P 19325 16050
+F 0 "#PWR022" H 19325 15900 50  0001 C CNN
+F 1 "+5V" H 19325 16190 50  0000 C CNN
+F 2 "" H 19325 16050 50  0001 C CNN
+F 3 "" H 19325 16050 50  0001 C CNN
+	1    19325 16050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 82S137 H_1
+U 1 1 5AFEE253
+P 21050 16850
+F 0 "H_1" V 21100 16825 60  0000 C CNN
+F 1 "82S137" V 20975 16850 60  0000 C CNN
+F 2 "Asteroids:82S137" H 21500 17550 60  0001 C CNN
+F 3 "" H 21500 17550 60  0001 C CNN
+	1    21050 16850
+	1    0    0    -1  
+$EndComp
+Text GLabel 20450 16425 0    60   Input ~ 0
+AB9
+Text GLabel 20450 16525 0    60   Input ~ 0
+AB8
+Text GLabel 20450 16625 0    60   Input ~ 0
+AB7
+Text GLabel 20450 16725 0    60   Input ~ 0
+AB6
+Text GLabel 20450 16825 0    60   Input ~ 0
+AB5
+Text GLabel 20450 16925 0    60   Input ~ 0
+AB4
+Text GLabel 20450 17025 0    60   Input ~ 0
+AB3
+Text GLabel 20450 17125 0    60   Input ~ 0
+AB2
+Text GLabel 20450 17225 0    60   Input ~ 0
+AB1
+Text GLabel 20450 17325 0    60   Input ~ 0
+AB0
+$Comp
+L GND #PWR023
+U 1 1 5AFEE275
+P 21125 17700
+F 0 "#PWR023" H 21125 17450 50  0001 C CNN
+F 1 "GND" H 21125 17550 50  0000 C CNN
+F 2 "" H 21125 17700 50  0001 C CNN
+F 3 "" H 21125 17700 50  0001 C CNN
+	1    21125 17700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR024
+U 1 1 5AFEE27C
+P 21125 16050
+F 0 "#PWR024" H 21125 15900 50  0001 C CNN
+F 1 "+5V" H 21125 16190 50  0000 C CNN
+F 2 "" H 21125 16050 50  0001 C CNN
+F 3 "" H 21125 16050 50  0001 C CNN
+	1    21125 16050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 82S137 L_1
+U 1 1 5AFEE283
+P 22850 16850
+F 0 "L_1" V 22900 16825 60  0000 C CNN
+F 1 "82S137" V 22775 16850 60  0000 C CNN
+F 2 "Asteroids:82S137" H 23300 17550 60  0001 C CNN
+F 3 "" H 23300 17550 60  0001 C CNN
+	1    22850 16850
+	1    0    0    -1  
+$EndComp
+Text GLabel 22250 16425 0    60   Input ~ 0
+AB9
+Text GLabel 22250 16525 0    60   Input ~ 0
+AB8
+Text GLabel 22250 16625 0    60   Input ~ 0
+AB7
+Text GLabel 22250 16725 0    60   Input ~ 0
+AB6
+Text GLabel 22250 16825 0    60   Input ~ 0
+AB5
+Text GLabel 22250 16925 0    60   Input ~ 0
+AB4
+Text GLabel 22250 17025 0    60   Input ~ 0
+AB3
+Text GLabel 22250 17125 0    60   Input ~ 0
+AB2
+Text GLabel 22250 17225 0    60   Input ~ 0
+AB1
+Text GLabel 22250 17325 0    60   Input ~ 0
+AB0
+$Comp
+L GND #PWR025
+U 1 1 5AFEE2A5
+P 22925 17700
+F 0 "#PWR025" H 22925 17450 50  0001 C CNN
+F 1 "GND" H 22925 17550 50  0000 C CNN
+F 2 "" H 22925 17700 50  0001 C CNN
+F 3 "" H 22925 17700 50  0001 C CNN
+	1    22925 17700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR026
+U 1 1 5AFEE2AC
+P 22925 16050
+F 0 "#PWR026" H 22925 15900 50  0001 C CNN
+F 1 "+5V" H 22925 16190 50  0000 C CNN
+F 2 "" H 22925 16050 50  0001 C CNN
+F 3 "" H 22925 16050 50  0001 C CNN
+	1    22925 16050
+	1    0    0    -1  
+$EndComp
+Text GLabel 14450 16725 2    60   Input ~ 0
+DB3
+Text GLabel 14450 16825 2    60   Input ~ 0
+DB2
+Text GLabel 14450 16925 2    60   Input ~ 0
+DB1
+Text GLabel 14450 17025 2    60   Input ~ 0
+DB0
+Text GLabel 16250 16725 2    60   Input ~ 0
+DB3
+Text GLabel 16250 16825 2    60   Input ~ 0
+DB2
+Text GLabel 16250 16925 2    60   Input ~ 0
+DB1
+Text GLabel 16250 17025 2    60   Input ~ 0
+DB0
+Text GLabel 18050 16725 2    60   Input ~ 0
+DB3
+Text GLabel 18050 16825 2    60   Input ~ 0
+DB2
+Text GLabel 18050 16925 2    60   Input ~ 0
+DB1
+Text GLabel 18050 17025 2    60   Input ~ 0
+DB0
+Text GLabel 19850 16725 2    60   Input ~ 0
+DB3
+Text GLabel 19850 16825 2    60   Input ~ 0
+DB2
+Text GLabel 19850 16925 2    60   Input ~ 0
+DB1
+Text GLabel 19850 17025 2    60   Input ~ 0
+DB0
+Text GLabel 21650 16725 2    60   Input ~ 0
+DB3
+Text GLabel 21650 16825 2    60   Input ~ 0
+DB2
+Text GLabel 21650 16925 2    60   Input ~ 0
+DB1
+Text GLabel 21650 17025 2    60   Input ~ 0
+DB0
+Text GLabel 23450 16725 2    60   Input ~ 0
+DB3
+Text GLabel 23450 16825 2    60   Input ~ 0
+DB2
+Text GLabel 23450 16925 2    60   Input ~ 0
+DB1
+Text GLabel 23450 17025 2    60   Input ~ 0
+DB0
+Text GLabel 2500 15625 0    60   Input ~ 0
+AB10
+Text GLabel 2625 17950 0    60   Input ~ 0
+~PROM2
+Text GLabel 2625 18100 0    60   Input ~ 0
+~PROM1
+Text GLabel 2625 18250 0    60   Input ~ 0
+~PROM0
+$Comp
+L 8316E C_1
+U 1 1 5B080EF5
+P 2900 13800
+F 0 "C_1" H 2900 13950 60  0000 C CNN
+F 1 "8316E" V 2900 13675 50  0000 C CNN
+F 2 "Asteroids:DDIP24" H 2775 13925 60  0001 C CNN
+F 3 "" H 2775 13925 60  0001 C CNN
+	1    2900 13800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 8316E DE_1
+U 1 1 5B08118C
+P 4450 13800
+F 0 "DE_1" H 4450 13950 60  0000 C CNN
+F 1 "8316E" V 4450 13675 50  0000 C CNN
+F 2 "Asteroids:DDIP24" H 4325 13925 60  0001 C CNN
+F 3 "" H 4325 13925 60  0001 C CNN
+	1    4450 13800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 8316E F_1
+U 1 1 5B0812DB
+P 6000 13800
+F 0 "F_1" H 6000 13950 60  0000 C CNN
+F 1 "8316E" V 6000 13675 50  0000 C CNN
+F 2 "Asteroids:DDIP24" H 5875 13925 60  0001 C CNN
+F 3 "" H 5875 13925 60  0001 C CNN
+	1    6000 13800
+	1    0    0    -1  
+$EndComp
+Text GLabel 3375 13450 2    60   Input ~ 0
+DB7
+Text GLabel 3375 13550 2    60   Input ~ 0
+DB6
+Text GLabel 3375 13650 2    60   Input ~ 0
+DB5
+Text GLabel 3375 13750 2    60   Input ~ 0
+DB4
+Text GLabel 3375 13850 2    60   Input ~ 0
+DB3
+Text GLabel 3375 13950 2    60   Input ~ 0
+DB2
+Text GLabel 3375 14050 2    60   Input ~ 0
+DB1
+Text GLabel 3375 14150 2    60   Input ~ 0
+DB0
+Text GLabel 2425 13400 0    60   Input ~ 0
+AB9
+Text GLabel 2425 13500 0    60   Input ~ 0
+AB8
+Text GLabel 2425 13600 0    60   Input ~ 0
+AB7
+Text GLabel 2425 13700 0    60   Input ~ 0
+AB6
+Text GLabel 2425 13800 0    60   Input ~ 0
+AB5
+Text GLabel 2425 13900 0    60   Input ~ 0
+AB4
+Text GLabel 2425 14000 0    60   Input ~ 0
+AB3
+Text GLabel 2425 14100 0    60   Input ~ 0
+AB2
+Text GLabel 2425 14200 0    60   Input ~ 0
+AB1
+Text GLabel 2425 14300 0    60   Input ~ 0
+AB0
+Text GLabel 2425 13300 0    60   Input ~ 0
+AB10
+Text GLabel 3975 13400 0    60   Input ~ 0
+AB9
+Text GLabel 3975 13500 0    60   Input ~ 0
+AB8
+Text GLabel 3975 13600 0    60   Input ~ 0
+AB7
+Text GLabel 3975 13700 0    60   Input ~ 0
+AB6
+Text GLabel 3975 13800 0    60   Input ~ 0
+AB5
+Text GLabel 3975 13900 0    60   Input ~ 0
+AB4
+Text GLabel 3975 14000 0    60   Input ~ 0
+AB3
+Text GLabel 3975 14100 0    60   Input ~ 0
+AB2
+Text GLabel 3975 14200 0    60   Input ~ 0
+AB1
+Text GLabel 3975 14300 0    60   Input ~ 0
+AB0
+Text GLabel 3975 13300 0    60   Input ~ 0
+AB10
+Text GLabel 5525 13400 0    60   Input ~ 0
+AB9
+Text GLabel 5525 13500 0    60   Input ~ 0
+AB8
+Text GLabel 5525 13600 0    60   Input ~ 0
+AB7
+Text GLabel 5525 13700 0    60   Input ~ 0
+AB6
+Text GLabel 5525 13800 0    60   Input ~ 0
+AB5
+Text GLabel 5525 13900 0    60   Input ~ 0
+AB4
+Text GLabel 5525 14000 0    60   Input ~ 0
+AB3
+Text GLabel 5525 14100 0    60   Input ~ 0
+AB2
+Text GLabel 5525 14200 0    60   Input ~ 0
+AB1
+Text GLabel 5525 14300 0    60   Input ~ 0
+AB0
+Text GLabel 5525 13300 0    60   Input ~ 0
+AB10
+Text GLabel 4925 13450 2    60   Input ~ 0
+DB7
+Text GLabel 4925 13550 2    60   Input ~ 0
+DB6
+Text GLabel 4925 13650 2    60   Input ~ 0
+DB5
+Text GLabel 4925 13750 2    60   Input ~ 0
+DB4
+Text GLabel 4925 13850 2    60   Input ~ 0
+DB3
+Text GLabel 4925 13950 2    60   Input ~ 0
+DB2
+Text GLabel 4925 14050 2    60   Input ~ 0
+DB1
+Text GLabel 4925 14150 2    60   Input ~ 0
+DB0
+$Comp
+L +5V #PWR027
+U 1 1 5B08A446
+P 5225 2950
+F 0 "#PWR027" H 5225 2800 50  0001 C CNN
+F 1 "+5V" H 5225 3090 50  0000 C CNN
+F 2 "" H 5225 2950 50  0001 C CNN
+F 3 "" H 5225 2950 50  0001 C CNN
+	1    5225 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR028
+U 1 1 5B08B319
+P 4500 12950
+F 0 "#PWR028" H 4500 12800 50  0001 C CNN
+F 1 "+5V" H 4500 13090 50  0000 C CNN
+F 2 "" H 4500 12950 50  0001 C CNN
+F 3 "" H 4500 12950 50  0001 C CNN
+	1    4500 12950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR029
+U 1 1 5B08B3CD
+P 6050 12950
+F 0 "#PWR029" H 6050 12800 50  0001 C CNN
+F 1 "+5V" H 6050 13090 50  0000 C CNN
+F 2 "" H 6050 12950 50  0001 C CNN
+F 3 "" H 6050 12950 50  0001 C CNN
+	1    6050 12950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR030
+U 1 1 5B08BFD0
+P 3000 14625
+F 0 "#PWR030" H 3000 14375 50  0001 C CNN
+F 1 "GND" H 3000 14475 50  0000 C CNN
+F 2 "" H 3000 14625 50  0001 C CNN
+F 3 "" H 3000 14625 50  0001 C CNN
+	1    3000 14625
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR031
+U 1 1 5B08C423
+P 4550 14625
+F 0 "#PWR031" H 4550 14375 50  0001 C CNN
+F 1 "GND" H 4550 14475 50  0000 C CNN
+F 2 "" H 4550 14625 50  0001 C CNN
+F 3 "" H 4550 14625 50  0001 C CNN
+	1    4550 14625
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR032
+U 1 1 5B08DB7B
+P 6100 14625
+F 0 "#PWR032" H 6100 14375 50  0001 C CNN
+F 1 "GND" H 6100 14475 50  0000 C CNN
+F 2 "" H 6100 14625 50  0001 C CNN
+F 3 "" H 6100 14625 50  0001 C CNN
+	1    6100 14625
+	1    0    0    -1  
+$EndComp
+Text GLabel 2600 14850 0    60   Input ~ 0
+~PROM2
+Text GLabel 2600 15000 0    60   Input ~ 0
+~PROM1
+Text GLabel 2600 15150 0    60   Input ~ 0
+~PROM0
+Text Notes 19075 12975 0    300  ~ 0
+ROM/PROM CIRCUITRY
+Text GLabel 6475 13450 2    60   Input ~ 0
+DB7
+Text GLabel 6475 13550 2    60   Input ~ 0
+DB6
+Text GLabel 6475 13650 2    60   Input ~ 0
+DB5
+Text GLabel 6475 13750 2    60   Input ~ 0
+DB4
+Text GLabel 6475 13850 2    60   Input ~ 0
+DB3
+Text GLabel 6475 13950 2    60   Input ~ 0
+DB2
+Text GLabel 6475 14050 2    60   Input ~ 0
+DB1
+Text GLabel 6475 14150 2    60   Input ~ 0
+DB0
+$Comp
+L LS32 M_5
+U 4 2 5B0A738A
+P 29100 15850
+F 0 "M_5" H 29100 15900 50  0000 C CNN
+F 1 "LS32" H 29100 15800 50  0000 C CNN
+F 2 "Asteroids:DIP14" H 29100 15850 50  0001 C CNN
+F 3 "" H 29100 15850 50  0001 C CNN
+	4    29100 15850
+	1    0    0    1   
+$EndComp
+$Comp
+L LS86 P_5
+U 2 1 5B0A7D35
+P 28325 14300
+F 0 "P_5" H 28425 14350 50  0000 C CNN
+F 1 "LS86" H 28425 14250 50  0000 C CNN
+F 2 "Asteroids:DIP14" H 28325 14300 50  0001 C CNN
+F 3 "" H 28325 14300 50  0001 C CNN
+	2    28325 14300
+	1    0    0    1   
+$EndComp
+$Comp
+L LS00 N_5
+U 2 1 5B0A86E2
+P 26775 13975
+F 0 "N_5" H 26825 14025 50  0000 C CNN
+F 1 "LS00" H 26825 13875 50  0000 C CNN
+F 2 "Asteroids:DIP14" H 26775 13975 50  0001 C CNN
+F 3 "" H 26775 13975 50  0001 C CNN
+	2    26775 13975
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2114 E_2
+U 1 1 5B0AB32D
+P 30175 14700
+F 0 "E_2" H 30175 14925 60  0000 C CNN
+F 1 "2114" V 30175 14700 60  0000 C CNN
+F 2 "Asteroids:DIP18" H 30175 14750 60  0001 C CNN
+F 3 "" H 30175 14750 60  0001 C CNN
+	1    30175 14700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2114 D_2
+U 1 1 5B0AB440
+P 32000 14700
+F 0 "D_2" H 32000 14925 60  0000 C CNN
+F 1 "2114" V 32000 14700 60  0000 C CNN
+F 2 "Asteroids:DIP18" H 32000 14750 60  0001 C CNN
+F 3 "" H 32000 14750 60  0001 C CNN
+	1    32000 14700
+	1    0    0    -1  
+$EndComp
+Text GLabel 29575 14200 0    60   Input ~ 0
+AB9
+Text GLabel 27625 14400 0    60   Input ~ 0
+AB8
+Text GLabel 29575 14400 0    60   Input ~ 0
+AB7
+Text GLabel 29575 14500 0    60   Input ~ 0
+AB6
+Text GLabel 29575 14600 0    60   Input ~ 0
+AB5
+Text GLabel 29575 14700 0    60   Input ~ 0
+AB4
+Text GLabel 29575 14800 0    60   Input ~ 0
+AB3
+Text GLabel 29575 14900 0    60   Input ~ 0
+AB2
+Text GLabel 29575 15000 0    60   Input ~ 0
+AB1
+Text GLabel 29575 15100 0    60   Input ~ 0
+AB0
+Text GLabel 31400 14200 0    60   Input ~ 0
+AB9
+Text GLabel 31400 14400 0    60   Input ~ 0
+AB7
+Text GLabel 31400 14500 0    60   Input ~ 0
+AB6
+Text GLabel 31400 14600 0    60   Input ~ 0
+AB5
+Text GLabel 31400 14700 0    60   Input ~ 0
+AB4
+Text GLabel 31400 14800 0    60   Input ~ 0
+AB3
+Text GLabel 31400 14900 0    60   Input ~ 0
+AB2
+Text GLabel 31400 15000 0    60   Input ~ 0
+AB1
+Text GLabel 31400 15100 0    60   Input ~ 0
+AB0
+Text GLabel 30750 14550 2    60   Input ~ 0
+DB7
+Text GLabel 30750 14650 2    60   Input ~ 0
+DB6
+Text GLabel 30750 14750 2    60   Input ~ 0
+DB5
+Text GLabel 30750 14850 2    60   Input ~ 0
+DB4
+Text GLabel 32575 14550 2    60   Input ~ 0
+DB3
+Text GLabel 32575 14650 2    60   Input ~ 0
+DB2
+Text GLabel 32575 14750 2    60   Input ~ 0
+DB1
+Text GLabel 32575 14850 2    60   Input ~ 0
+DB0
+$Comp
+L GND #PWR033
+U 1 1 5B0BAA12
+P 30225 15550
+F 0 "#PWR033" H 30225 15300 50  0001 C CNN
+F 1 "GND" H 30225 15400 50  0000 C CNN
+F 2 "" H 30225 15550 50  0001 C CNN
+F 3 "" H 30225 15550 50  0001 C CNN
+	1    30225 15550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR034
+U 1 1 5B0BB751
+P 32050 15550
+F 0 "#PWR034" H 32050 15300 50  0001 C CNN
+F 1 "GND" H 32050 15400 50  0000 C CNN
+F 2 "" H 32050 15550 50  0001 C CNN
+F 3 "" H 32050 15550 50  0001 C CNN
+	1    32050 15550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR035
+U 1 1 5B0BF662
+P 30175 13850
+F 0 "#PWR035" H 30175 13700 50  0001 C CNN
+F 1 "+5V" H 30175 13990 50  0000 C CNN
+F 2 "" H 30175 13850 50  0001 C CNN
+F 3 "" H 30175 13850 50  0001 C CNN
+	1    30175 13850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR036
+U 1 1 5B0BF71D
+P 32000 13850
+F 0 "#PWR036" H 32000 13700 50  0001 C CNN
+F 1 "+5V" H 32000 13990 50  0000 C CNN
+F 2 "" H 32000 13850 50  0001 C CNN
+F 3 "" H 32000 13850 50  0001 C CNN
+	1    32000 13850
+	1    0    0    -1  
+$EndComp
+Text GLabel 29575 15200 0    60   Input ~ 0
+R/~WB
+Text GLabel 31400 15200 0    60   Input ~ 0
+R/~WB
+Text GLabel 28375 15750 0    60   Input ~ 0
+~ZPAGE
+Text GLabel 28375 15950 0    60   Input ~ 0
+~O2
+Text GLabel 26075 14075 0    60   Input ~ 0
+AB9
+Text Notes 30550 12875 0    300  ~ 0
+RAM CIRCUITRY
+$Comp
+L GND #PWR037
+U 1 1 5AFCEBDE
+P 2950 8275
+F 0 "#PWR037" H 2950 8025 50  0001 C CNN
+F 1 "GND" H 2950 8125 50  0000 C CNN
+F 2 "" H 2950 8275 50  0001 C CNN
+F 3 "" H 2950 8275 50  0001 C CNN
+	1    2950 8275
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR038
+U 1 1 5AFCEBF8
+P 2950 7325
+F 0 "#PWR038" H 2950 7175 50  0001 C CNN
+F 1 "+5V" H 2950 7465 50  0000 C CNN
+F 2 "" H 2950 7325 50  0001 C CNN
+F 3 "" H 2950 7325 50  0001 C CNN
+	1    2950 7325
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R27
+U 1 1 5AFF2E46
+P 2500 7225
+F 0 "R27" V 2580 7225 50  0000 C CNN
+F 1 "1K" V 2500 7225 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 2430 7225 50  0001 C CNN
+F 3 "" H 2500 7225 50  0001 C CNN
+	1    2500 7225
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R29
+U 1 1 5AFF2EAB
+P 2675 7225
+F 0 "R29" V 2755 7225 50  0000 C CNN
+F 1 "1K" V 2675 7225 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 2605 7225 50  0001 C CNN
+F 3 "" H 2675 7225 50  0001 C CNN
+	1    2675 7225
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C19
+U 1 1 5AFF397B
+P 2500 7700
+F 0 "C19" H 2525 7800 50  0000 L CNN
+F 1 "100uF" H 2525 7600 50  0000 L CNN
+F 2 "Asteroids:Electrolytic1" H 2538 7550 50  0001 C CNN
+F 3 "" H 2500 7700 50  0001 C CNN
+	1    2500 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED CR5
+U 1 1 5AFF3C49
+P 2950 8000
+F 0 "CR5" H 2950 8100 50  0000 C CNN
+F 1 "LED" H 2950 7900 50  0000 C CNN
+F 2 "Asteroids:LED" H 2950 8000 50  0001 C CNN
+F 3 "" H 2950 8000 50  0001 C CNN
+	1    2950 8000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R55
+U 1 1 5AFF3D21
+P 2950 7625
+F 0 "R55" V 3030 7625 50  0000 C CNN
+F 1 "150" V 2950 7625 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 2880 7625 50  0001 C CNN
+F 3 "" H 2950 7625 50  0001 C CNN
+	1    2950 7625
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 5AFF4DE9
+P 1800 8950
+F 0 "C1" H 1825 9050 50  0000 L CNN
+F 1 ".1uF" H 1825 8850 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 1838 8800 50  0001 C CNN
+F 3 "" H 1800 8950 50  0001 C CNN
+	1    1800 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 5AFF4E90
+P 2050 8950
+F 0 "C2" H 2075 9050 50  0000 L CNN
+F 1 ".1uF" H 2075 8850 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 2088 8800 50  0001 C CNN
+F 3 "" H 2050 8950 50  0001 C CNN
+	1    2050 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 5AFF4F18
+P 2300 8950
+F 0 "C3" H 2325 9050 50  0000 L CNN
+F 1 ".1uF" H 2325 8850 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 2338 8800 50  0001 C CNN
+F 3 "" H 2300 8950 50  0001 C CNN
+	1    2300 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 5AFF4F1E
+P 2550 8950
+F 0 "C4" H 2575 9050 50  0000 L CNN
+F 1 ".1uF" H 2575 8850 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 2588 8800 50  0001 C CNN
+F 3 "" H 2550 8950 50  0001 C CNN
+	1    2550 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 5AFF5090
+P 2800 8950
+F 0 "C5" H 2825 9050 50  0000 L CNN
+F 1 ".1uF" H 2825 8850 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 2838 8800 50  0001 C CNN
+F 3 "" H 2800 8950 50  0001 C CNN
+	1    2800 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 5AFF5096
+P 3050 8950
+F 0 "C6" H 3075 9050 50  0000 L CNN
+F 1 ".1uF" H 3075 8850 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 3088 8800 50  0001 C CNN
+F 3 "" H 3050 8950 50  0001 C CNN
+	1    3050 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C7
+U 1 1 5AFF509C
+P 3300 8950
+F 0 "C7" H 3325 9050 50  0000 L CNN
+F 1 ".1uF" H 3325 8850 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 3338 8800 50  0001 C CNN
+F 3 "" H 3300 8950 50  0001 C CNN
+	1    3300 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C8
+U 1 1 5AFF50A2
+P 3550 8950
+F 0 "C8" H 3575 9050 50  0000 L CNN
+F 1 ".1uF" H 3575 8850 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 3588 8800 50  0001 C CNN
+F 3 "" H 3550 8950 50  0001 C CNN
+	1    3550 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C9
+U 1 1 5AFF7368
+P 3800 8950
+F 0 "C9" H 3825 9050 50  0000 L CNN
+F 1 ".1uF" H 3825 8850 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 3838 8800 50  0001 C CNN
+F 3 "" H 3800 8950 50  0001 C CNN
+	1    3800 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C10
+U 1 1 5AFF736E
+P 4050 8950
+F 0 "C10" H 4075 9050 50  0000 L CNN
+F 1 ".1uF" H 4075 8850 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 4088 8800 50  0001 C CNN
+F 3 "" H 4050 8950 50  0001 C CNN
+	1    4050 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR039
+U 1 1 5AFF94E0
+P 1800 8750
+F 0 "#PWR039" H 1800 8600 50  0001 C CNN
+F 1 "+5V" H 1800 8890 50  0000 C CNN
+F 2 "" H 1800 8750 50  0001 C CNN
+F 3 "" H 1800 8750 50  0001 C CNN
+	1    1800 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR040
+U 1 1 5AFF9764
+P 1800 9150
+F 0 "#PWR040" H 1800 8900 50  0001 C CNN
+F 1 "GND" H 1800 9000 50  0000 C CNN
+F 2 "" H 1800 9150 50  0001 C CNN
+F 3 "" H 1800 9150 50  0001 C CNN
+	1    1800 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C11
+U 1 1 5AFF9CB1
+P 1800 9725
+F 0 "C11" H 1825 9825 50  0000 L CNN
+F 1 ".1uF" H 1825 9625 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 1838 9575 50  0001 C CNN
+F 3 "" H 1800 9725 50  0001 C CNN
+	1    1800 9725
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C12
+U 1 1 5AFF9CB7
+P 2050 9725
+F 0 "C12" H 2075 9825 50  0000 L CNN
+F 1 ".1uF" H 2075 9625 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 2088 9575 50  0001 C CNN
+F 3 "" H 2050 9725 50  0001 C CNN
+	1    2050 9725
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C13
+U 1 1 5AFF9CBD
+P 2300 9725
+F 0 "C13" H 2325 9825 50  0000 L CNN
+F 1 ".1uF" H 2325 9625 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 2338 9575 50  0001 C CNN
+F 3 "" H 2300 9725 50  0001 C CNN
+	1    2300 9725
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C14
+U 1 1 5AFF9CC3
+P 2550 9725
+F 0 "C14" H 2575 9825 50  0000 L CNN
+F 1 ".1uF" H 2575 9625 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 2588 9575 50  0001 C CNN
+F 3 "" H 2550 9725 50  0001 C CNN
+	1    2550 9725
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C15
+U 1 1 5AFF9CC9
+P 2800 9725
+F 0 "C15" H 2825 9825 50  0000 L CNN
+F 1 ".1uF" H 2825 9625 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 2838 9575 50  0001 C CNN
+F 3 "" H 2800 9725 50  0001 C CNN
+	1    2800 9725
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C16
+U 1 1 5AFF9CCF
+P 3050 9725
+F 0 "C16" H 3075 9825 50  0000 L CNN
+F 1 ".1uF" H 3075 9625 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 3088 9575 50  0001 C CNN
+F 3 "" H 3050 9725 50  0001 C CNN
+	1    3050 9725
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C17
+U 1 1 5AFF9CD5
+P 3300 9725
+F 0 "C17" H 3325 9825 50  0000 L CNN
+F 1 ".1uF" H 3325 9625 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 3338 9575 50  0001 C CNN
+F 3 "" H 3300 9725 50  0001 C CNN
+	1    3300 9725
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C20
+U 1 1 5AFF9CDB
+P 3550 9725
+F 0 "C20" H 3575 9825 50  0000 L CNN
+F 1 ".1uF" H 3575 9625 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 3588 9575 50  0001 C CNN
+F 3 "" H 3550 9725 50  0001 C CNN
+	1    3550 9725
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C21
+U 1 1 5AFF9CE1
+P 3800 9725
+F 0 "C21" H 3825 9825 50  0000 L CNN
+F 1 ".1uF" H 3825 9625 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 3838 9575 50  0001 C CNN
+F 3 "" H 3800 9725 50  0001 C CNN
+	1    3800 9725
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C22
+U 1 1 5AFF9CE7
+P 4050 9725
+F 0 "C22" H 4075 9825 50  0000 L CNN
+F 1 ".1uF" H 4075 9625 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 4088 9575 50  0001 C CNN
+F 3 "" H 4050 9725 50  0001 C CNN
+	1    4050 9725
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR041
+U 1 1 5AFF9CFF
+P 1800 9525
+F 0 "#PWR041" H 1800 9375 50  0001 C CNN
+F 1 "+5V" H 1800 9665 50  0000 C CNN
+F 2 "" H 1800 9525 50  0001 C CNN
+F 3 "" H 1800 9525 50  0001 C CNN
+	1    1800 9525
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR042
+U 1 1 5AFF9D06
+P 1800 9925
+F 0 "#PWR042" H 1800 9675 50  0001 C CNN
+F 1 "GND" H 1800 9775 50  0000 C CNN
+F 2 "" H 1800 9925 50  0001 C CNN
+F 3 "" H 1800 9925 50  0001 C CNN
+	1    1800 9925
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C23
+U 1 1 5AFFAFB9
+P 1800 10500
+F 0 "C23" H 1825 10600 50  0000 L CNN
+F 1 ".1uF" H 1825 10400 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 1838 10350 50  0001 C CNN
+F 3 "" H 1800 10500 50  0001 C CNN
+	1    1800 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C26
+U 1 1 5AFFAFBF
+P 2050 10500
+F 0 "C26" H 2075 10600 50  0000 L CNN
+F 1 ".1uF" H 2075 10400 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 2088 10350 50  0001 C CNN
+F 3 "" H 2050 10500 50  0001 C CNN
+	1    2050 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C28
+U 1 1 5AFFAFC5
+P 2300 10500
+F 0 "C28" H 2325 10600 50  0000 L CNN
+F 1 ".1uF" H 2325 10400 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 2338 10350 50  0001 C CNN
+F 3 "" H 2300 10500 50  0001 C CNN
+	1    2300 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C29
+U 1 1 5AFFAFCB
+P 2550 10500
+F 0 "C29" H 2575 10600 50  0000 L CNN
+F 1 ".1uF" H 2575 10400 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 2588 10350 50  0001 C CNN
+F 3 "" H 2550 10500 50  0001 C CNN
+	1    2550 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C30
+U 1 1 5AFFAFD1
+P 2800 10500
+F 0 "C30" H 2825 10600 50  0000 L CNN
+F 1 ".1uF" H 2825 10400 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 2838 10350 50  0001 C CNN
+F 3 "" H 2800 10500 50  0001 C CNN
+	1    2800 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C31
+U 1 1 5AFFAFD7
+P 3050 10500
+F 0 "C31" H 3075 10600 50  0000 L CNN
+F 1 ".1uF" H 3075 10400 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 3088 10350 50  0001 C CNN
+F 3 "" H 3050 10500 50  0001 C CNN
+	1    3050 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C41
+U 1 1 5AFFAFDD
+P 3300 10500
+F 0 "C41" H 3325 10600 50  0000 L CNN
+F 1 ".1uF" H 3325 10400 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 3338 10350 50  0001 C CNN
+F 3 "" H 3300 10500 50  0001 C CNN
+	1    3300 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C42
+U 1 1 5AFFAFE3
+P 3550 10500
+F 0 "C42" H 3575 10600 50  0000 L CNN
+F 1 ".1uF" H 3575 10400 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 3588 10350 50  0001 C CNN
+F 3 "" H 3550 10500 50  0001 C CNN
+	1    3550 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C43
+U 1 1 5AFFAFE9
+P 3800 10500
+F 0 "C43" H 3825 10600 50  0000 L CNN
+F 1 ".1uF" H 3825 10400 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 3838 10350 50  0001 C CNN
+F 3 "" H 3800 10500 50  0001 C CNN
+	1    3800 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C44
+U 1 1 5AFFAFEF
+P 4050 10500
+F 0 "C44" H 4075 10600 50  0000 L CNN
+F 1 ".1uF" H 4075 10400 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 4088 10350 50  0001 C CNN
+F 3 "" H 4050 10500 50  0001 C CNN
+	1    4050 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR043
+U 1 1 5AFFB007
+P 1800 10300
+F 0 "#PWR043" H 1800 10150 50  0001 C CNN
+F 1 "+5V" H 1800 10440 50  0000 C CNN
+F 2 "" H 1800 10300 50  0001 C CNN
+F 3 "" H 1800 10300 50  0001 C CNN
+	1    1800 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR044
+U 1 1 5AFFB00E
+P 1800 10700
+F 0 "#PWR044" H 1800 10450 50  0001 C CNN
+F 1 "GND" H 1800 10550 50  0000 C CNN
+F 2 "" H 1800 10700 50  0001 C CNN
+F 3 "" H 1800 10700 50  0001 C CNN
+	1    1800 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C49
+U 1 1 5AFFB015
+P 1800 11275
+F 0 "C49" H 1825 11375 50  0000 L CNN
+F 1 ".1uF" H 1825 11175 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 1838 11125 50  0001 C CNN
+F 3 "" H 1800 11275 50  0001 C CNN
+	1    1800 11275
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C52
+U 1 1 5AFFB01B
+P 2050 11275
+F 0 "C52" H 2075 11375 50  0000 L CNN
+F 1 ".1uF" H 2075 11175 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 2088 11125 50  0001 C CNN
+F 3 "" H 2050 11275 50  0001 C CNN
+	1    2050 11275
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C53
+U 1 1 5AFFB021
+P 2300 11275
+F 0 "C53" H 2325 11375 50  0000 L CNN
+F 1 ".1uF" H 2325 11175 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 2338 11125 50  0001 C CNN
+F 3 "" H 2300 11275 50  0001 C CNN
+	1    2300 11275
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C57
+U 1 1 5AFFB027
+P 2550 11275
+F 0 "C57" H 2575 11375 50  0000 L CNN
+F 1 ".1uF" H 2575 11175 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 2588 11125 50  0001 C CNN
+F 3 "" H 2550 11275 50  0001 C CNN
+	1    2550 11275
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C60
+U 1 1 5AFFB02D
+P 2800 11275
+F 0 "C60" H 2825 11375 50  0000 L CNN
+F 1 ".1uF" H 2825 11175 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 2838 11125 50  0001 C CNN
+F 3 "" H 2800 11275 50  0001 C CNN
+	1    2800 11275
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C61
+U 1 1 5AFFB033
+P 3050 11275
+F 0 "C61" H 3075 11375 50  0000 L CNN
+F 1 ".1uF" H 3075 11175 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 3088 11125 50  0001 C CNN
+F 3 "" H 3050 11275 50  0001 C CNN
+	1    3050 11275
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C66
+U 1 1 5AFFB039
+P 3300 11275
+F 0 "C66" H 3325 11375 50  0000 L CNN
+F 1 ".1uF" H 3325 11175 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 3338 11125 50  0001 C CNN
+F 3 "" H 3300 11275 50  0001 C CNN
+	1    3300 11275
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C111
+U 1 1 5AFFB03F
+P 3550 11275
+F 0 "C111" H 3575 11375 50  0000 L CNN
+F 1 ".1uF" H 3575 11175 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 3588 11125 50  0001 C CNN
+F 3 "" H 3550 11275 50  0001 C CNN
+	1    3550 11275
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C112
+U 1 1 5AFFB045
+P 3800 11275
+F 0 "C112" H 3825 11375 50  0000 L CNN
+F 1 ".1uF" H 3825 11175 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 3838 11125 50  0001 C CNN
+F 3 "" H 3800 11275 50  0001 C CNN
+	1    3800 11275
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR045
+U 1 1 5AFFB063
+P 1800 11075
+F 0 "#PWR045" H 1800 10925 50  0001 C CNN
+F 1 "+5V" H 1800 11215 50  0000 C CNN
+F 2 "" H 1800 11075 50  0001 C CNN
+F 3 "" H 1800 11075 50  0001 C CNN
+	1    1800 11075
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR046
+U 1 1 5AFFB06A
+P 1800 11475
+F 0 "#PWR046" H 1800 11225 50  0001 C CNN
+F 1 "GND" H 1800 11325 50  0000 C CNN
+F 2 "" H 1800 11475 50  0001 C CNN
+F 3 "" H 1800 11475 50  0001 C CNN
+	1    1800 11475
+	1    0    0    -1  
+$EndComp
+$Comp
+L L7805 U7805
+U 1 1 5B003EF1
+P 7300 10025
+F 0 "U7805" H 7150 10150 50  0000 C CNN
+F 1 "L7805" H 7300 10150 50  0000 L CNN
+F 2 "Asteroids:Volt_Reg" H 7325 9875 50  0001 L CIN
+F 3 "" H 7300 9975 50  0001 C CNN
+	1    7300 10025
+	1    0    0    -1  
+$EndComp
+$Comp
+L L7815 U7815
+U 1 1 5B003FAA
+P 7300 8375
+F 0 "U7815" H 7150 8500 50  0000 C CNN
+F 1 "L7815" H 7300 8500 50  0000 L CNN
+F 2 "Asteroids:Volt_Reg" H 7325 8225 50  0001 L CIN
+F 3 "" H 7300 8325 50  0001 C CNN
+	1    7300 8375
+	1    0    0    -1  
+$EndComp
+$Comp
+L L7915 U7915
+U 1 1 5B004067
+P 7300 10875
+F 0 "U7915" H 7150 10750 50  0000 C CNN
+F 1 "L7915" H 7300 10750 50  0000 L CNN
+F 2 "Asteroids:Volt_Reg" H 7300 10675 50  0001 C CIN
+F 3 "" H 7300 10875 50  0001 C CNN
+	1    7300 10875
+	1    0    0    1   
+$EndComp
+$Comp
+L L7812 U7812
+U 1 1 5B00413A
+P 7300 9200
+F 0 "U7812" H 7150 9325 50  0000 C CNN
+F 1 "L7812" H 7300 9325 50  0000 L CNN
+F 2 "Asteroids:2N6044" H 7325 9050 50  0001 L CIN
+F 3 "" H 7300 9150 50  0001 C CNN
+	1    7300 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D CR9
+U 1 1 5B0041E3
+P 6300 10875
+F 0 "CR9" H 6300 10975 50  0000 C CNN
+F 1 "1N4001" H 6300 10775 50  0000 C CNN
+F 2 "Asteroids:GenericD" H 6300 10875 50  0001 C CNN
+F 3 "" H 6300 10875 50  0001 C CNN
+	1    6300 10875
+	1    0    0    -1  
+$EndComp
+$Comp
+L D CR10
+U 1 1 5B0042C8
+P 6300 10575
+F 0 "CR10" H 6300 10675 50  0000 C CNN
+F 1 "1N4001" H 6300 10475 50  0000 C CNN
+F 2 "Asteroids:GenericD" H 6300 10575 50  0001 C CNN
+F 3 "" H 6300 10575 50  0001 C CNN
+	1    6300 10575
+	1    0    0    -1  
+$EndComp
+$Comp
+L D CR12
+U 1 1 5B0043AD
+P 6300 8675
+F 0 "CR12" H 6300 8775 50  0000 C CNN
+F 1 "1N4001" H 6300 8575 50  0000 C CNN
+F 2 "Asteroids:GenericD" H 6300 8675 50  0001 C CNN
+F 3 "" H 6300 8675 50  0001 C CNN
+	1    6300 8675
+	-1   0    0    1   
+$EndComp
+$Comp
+L D CR11
+U 1 1 5B004442
+P 6300 8375
+F 0 "CR11" H 6300 8475 50  0000 C CNN
+F 1 "1N4001" H 6300 8275 50  0000 C CNN
+F 2 "Asteroids:GenericD" H 6300 8375 50  0001 C CNN
+F 3 "" H 6300 8375 50  0001 C CNN
+	1    6300 8375
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C84
+U 1 1 5B004C93
+P 5650 8575
+F 0 "C84" H 5675 8675 50  0000 L CNN
+F 1 ".1uF" H 5675 8475 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 5688 8425 50  0001 C CNN
+F 3 "" H 5650 8575 50  0001 C CNN
+	1    5650 8575
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR047
+U 1 1 5B004F36
+P 5650 8800
+F 0 "#PWR047" H 5650 8550 50  0001 C CNN
+F 1 "GND" H 5650 8650 50  0000 C CNN
+F 2 "" H 5650 8800 50  0001 C CNN
+F 3 "" H 5650 8800 50  0001 C CNN
+	1    5650 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C85
+U 1 1 5B00A5CA
+P 5650 11075
+F 0 "C85" H 5675 11175 50  0000 L CNN
+F 1 ".1uF" H 5675 10975 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 5688 10925 50  0001 C CNN
+F 3 "" H 5650 11075 50  0001 C CNN
+	1    5650 11075
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR048
+U 1 1 5B00A5D0
+P 5650 11300
+F 0 "#PWR048" H 5650 11050 50  0001 C CNN
+F 1 "GND" H 5650 11150 50  0000 C CNN
+F 2 "" H 5650 11300 50  0001 C CNN
+F 3 "" H 5650 11300 50  0001 C CNN
+	1    5650 11300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C87
+U 1 1 5B00BE57
+P 6775 8575
+F 0 "C87" H 6800 8675 50  0000 L CNN
+F 1 "470uF" H 6525 8675 50  0000 L CNN
+F 2 "Asteroids:Electrolytic3" H 6813 8425 50  0001 C CNN
+F 3 "" H 6775 8575 50  0001 C CNN
+	1    6775 8575
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR049
+U 1 1 5B00BE5D
+P 6775 8800
+F 0 "#PWR049" H 6775 8550 50  0001 C CNN
+F 1 "GND" H 6775 8650 50  0000 C CNN
+F 2 "" H 6775 8800 50  0001 C CNN
+F 3 "" H 6775 8800 50  0001 C CNN
+	1    6775 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR050
+U 1 1 5B00C5C2
+P 7300 8725
+F 0 "#PWR050" H 7300 8475 50  0001 C CNN
+F 1 "GND" H 7300 8575 50  0000 C CNN
+F 2 "" H 7300 8725 50  0001 C CNN
+F 3 "" H 7300 8725 50  0001 C CNN
+	1    7300 8725
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C93
+U 1 1 5B00C875
+P 7850 8575
+F 0 "C93" H 7875 8675 50  0000 L CNN
+F 1 "1uF" H 7875 8475 50  0000 L CNN
+F 2 "Asteroids:Electrolytic2C" H 7888 8425 50  0001 C CNN
+F 3 "" H 7850 8575 50  0001 C CNN
+	1    7850 8575
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR051
+U 1 1 5B00C87B
+P 7850 8800
+F 0 "#PWR051" H 7850 8550 50  0001 C CNN
+F 1 "GND" H 7850 8650 50  0000 C CNN
+F 2 "" H 7850 8800 50  0001 C CNN
+F 3 "" H 7850 8800 50  0001 C CNN
+	1    7850 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C70
+U 1 1 5B0123C6
+P 7850 9400
+F 0 "C70" H 7875 9500 50  0000 L CNN
+F 1 "1uF" H 7875 9300 50  0000 L CNN
+F 2 "Asteroids:Electrolytic2C" H 7888 9250 50  0001 C CNN
+F 3 "" H 7850 9400 50  0001 C CNN
+	1    7850 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR052
+U 1 1 5B0123CC
+P 7850 9600
+F 0 "#PWR052" H 7850 9350 50  0001 C CNN
+F 1 "GND" H 7850 9450 50  0000 C CNN
+F 2 "" H 7850 9600 50  0001 C CNN
+F 3 "" H 7850 9600 50  0001 C CNN
+	1    7850 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR053
+U 1 1 5B012C5A
+P 7300 9550
+F 0 "#PWR053" H 7300 9300 50  0001 C CNN
+F 1 "GND" H 7300 9400 50  0000 C CNN
+F 2 "" H 7300 9550 50  0001 C CNN
+F 3 "" H 7300 9550 50  0001 C CNN
+	1    7300 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C92
+U 1 1 5B012FEB
+P 7850 10225
+F 0 "C92" H 7875 10325 50  0000 L CNN
+F 1 "1uF" H 7875 10125 50  0000 L CNN
+F 2 "Asteroids:Electrolytic2C" H 7888 10075 50  0001 C CNN
+F 3 "" H 7850 10225 50  0001 C CNN
+	1    7850 10225
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR054
+U 1 1 5B012FF1
+P 7850 10450
+F 0 "#PWR054" H 7850 10200 50  0001 C CNN
+F 1 "GND" H 7850 10300 50  0000 C CNN
+F 2 "" H 7850 10450 50  0001 C CNN
+F 3 "" H 7850 10450 50  0001 C CNN
+	1    7850 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR055
+U 1 1 5B0135ED
+P 7300 10375
+F 0 "#PWR055" H 7300 10125 50  0001 C CNN
+F 1 "GND" H 7300 10225 50  0000 C CNN
+F 2 "" H 7300 10375 50  0001 C CNN
+F 3 "" H 7300 10375 50  0001 C CNN
+	1    7300 10375
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C86
+U 1 1 5B01A549
+P 6775 11075
+F 0 "C86" H 6800 11175 50  0000 L CNN
+F 1 "470uF" H 6800 10975 50  0000 L CNN
+F 2 "Asteroids:Electrolytic3" H 6813 10925 50  0001 C CNN
+F 3 "" H 6775 11075 50  0001 C CNN
+	1    6775 11075
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR056
+U 1 1 5B01A54F
+P 6775 11300
+F 0 "#PWR056" H 6775 11050 50  0001 C CNN
+F 1 "GND" H 6775 11150 50  0000 C CNN
+F 2 "" H 6775 11300 50  0001 C CNN
+F 3 "" H 6775 11300 50  0001 C CNN
+	1    6775 11300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR057
+U 1 1 5B01AFF9
+P 7300 11225
+F 0 "#PWR057" H 7300 10975 50  0001 C CNN
+F 1 "GND" H 7300 11075 50  0000 C CNN
+F 2 "" H 7300 11225 50  0001 C CNN
+F 3 "" H 7300 11225 50  0001 C CNN
+	1    7300 11225
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C90
+U 1 1 5B01B3A5
+P 7850 11025
+F 0 "C90" H 7875 11125 50  0000 L CNN
+F 1 "1uF" H 7875 10925 50  0000 L CNN
+F 2 "Asteroids:Electrolytic2C" H 7888 10875 50  0001 C CNN
+F 3 "" H 7850 11025 50  0001 C CNN
+	1    7850 11025
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR058
+U 1 1 5B01B3AB
+P 7850 11250
+F 0 "#PWR058" H 7850 11000 50  0001 C CNN
+F 1 "GND" H 7850 11100 50  0000 C CNN
+F 2 "" H 7850 11250 50  0001 C CNN
+F 3 "" H 7850 11250 50  0001 C CNN
+	1    7850 11250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R112
+U 1 1 5B01C0BE
+P 8225 10875
+F 0 "R112" V 8305 10875 50  0000 C CNN
+F 1 "270" V 8225 10875 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 8155 10875 50  0001 C CNN
+F 3 "" H 8225 10875 50  0001 C CNN
+	1    8225 10875
+	0    1    1    0   
+$EndComp
+$Comp
+L C C91
+U 1 1 5B01C3A2
+P 8750 11075
+F 0 "C91" H 8775 11175 50  0000 L CNN
+F 1 ".1uF" H 8775 10975 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 8788 10925 50  0001 C CNN
+F 3 "" H 8750 11075 50  0001 C CNN
+	1    8750 11075
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR059
+U 1 1 5B01C82A
+P 8600 11325
+F 0 "#PWR059" H 8600 11075 50  0001 C CNN
+F 1 "GND" H 8600 11175 50  0000 C CNN
+F 2 "" H 8600 11325 50  0001 C CNN
+F 3 "" H 8600 11325 50  0001 C CNN
+	1    8600 11325
+	1    0    0    -1  
+$EndComp
+$Comp
+L -15V #PWR45
+U 1 1 5B03A664
+P 7850 10825
+F 0 "#PWR45" H 7850 10925 50  0001 C CNN
+F 1 "-15V" H 7850 10975 50  0000 C CNN
+F 2 "" H 7850 10825 50  0001 C CNN
+F 3 "" H 7850 10825 50  0001 C CNN
+	1    7850 10825
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR060
+U 1 1 5B03EE08
+P 7850 9150
+F 0 "#PWR060" H 7850 9000 50  0001 C CNN
+F 1 "+12V" H 7850 9290 50  0000 C CNN
+F 2 "" H 7850 9150 50  0001 C CNN
+F 3 "" H 7850 9150 50  0001 C CNN
+	1    7850 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5DAC #PWR061
+U 1 1 5B03FF32
+P 7850 9975
+F 0 "#PWR061" H 7850 9875 60  0001 C CNN
+F 1 "+5DAC" H 7825 10125 50  0000 C CNN
+F 2 "" H 7850 9975 60  0001 C CNN
+F 3 "" H 7850 9975 60  0001 C CNN
+	1    7850 9975
+	1    0    0    -1  
+$EndComp
+$Comp
+L +22V #PWR062
+U 1 1 5B04431D
+P 6775 8325
+F 0 "#PWR062" H 6775 8250 50  0001 C CNN
+F 1 "+22V" H 6775 8475 50  0000 C CNN
+F 2 "" H 6775 8325 60  0001 C CNN
+F 3 "" H 6775 8325 60  0001 C CNN
+	1    6775 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L +15V #PWR063
+U 1 1 5B0465F1
+P 7850 8325
+F 0 "#PWR063" H 7850 8175 50  0001 C CNN
+F 1 "+15V" H 7850 8465 50  0000 C CNN
+F 2 "" H 7850 8325 50  0001 C CNN
+F 3 "" H 7850 8325 50  0001 C CNN
+	1    7850 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R113
+U 1 1 5B047BB2
+P 8225 8375
+F 0 "R113" V 8305 8375 50  0000 C CNN
+F 1 "270" V 8225 8375 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 8155 8375 50  0001 C CNN
+F 3 "" H 8225 8375 50  0001 C CNN
+	1    8225 8375
+	0    1    1    0   
+$EndComp
+$Comp
+L C C94
+U 1 1 5B047BBE
+P 8750 8575
+F 0 "C94" H 8775 8675 50  0000 L CNN
+F 1 ".1uF" H 8775 8475 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 8788 8425 50  0001 C CNN
+F 3 "" H 8750 8575 50  0001 C CNN
+	1    8750 8575
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR064
+U 1 1 5B047BCA
+P 8600 8825
+F 0 "#PWR064" H 8600 8575 50  0001 C CNN
+F 1 "GND" H 8600 8675 50  0000 C CNN
+F 2 "" H 8600 8825 50  0001 C CNN
+F 3 "" H 8600 8825 50  0001 C CNN
+	1    8600 8825
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C117
+U 1 1 5B049BD0
+P 9100 8575
+F 0 "C117" H 9125 8675 50  0000 L CNN
+F 1 "22uF" H 9125 8475 50  0000 L CNN
+F 2 "Asteroids:Electrolytic4" H 9138 8425 50  0001 C CNN
+F 3 "" H 9100 8575 50  0001 C CNN
+	1    9100 8575
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR065
+U 1 1 5B04A3F6
+P 9100 8825
+F 0 "#PWR065" H 9100 8575 50  0001 C CNN
+F 1 "GND" H 9100 8675 50  0000 C CNN
+F 2 "" H 9100 8825 50  0001 C CNN
+F 3 "" H 9100 8825 50  0001 C CNN
+	1    9100 8825
+	1    0    0    -1  
+$EndComp
+Text Notes 9450 7075 2    300  ~ 0
+POWER INPUT
+$Comp
+L D_Zener CR14
+U 1 1 5B094205
+P 8425 8575
+F 0 "CR14" H 8425 8675 50  0000 C CNN
+F 1 "1N756A" H 8500 8475 50  0000 C CNN
+F 2 "Asteroids:GenericR" H 8425 8575 50  0001 C CNN
+F 3 "" H 8425 8575 50  0001 C CNN
+	1    8425 8575
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Zener CR13
+U 1 1 5B09C007
+P 8425 11075
+F 0 "CR13" H 8400 11175 50  0000 C CNN
+F 1 "1N756A" H 8450 10975 50  0000 C CNN
+F 2 "Asteroids:GenericR" H 8425 11075 50  0001 C CNN
+F 3 "" H 8425 11075 50  0001 C CNN
+	1    8425 11075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L -22V #PWR066
+U 1 1 5B0C5C50
+P 6775 10825
+F 0 "#PWR066" H 6775 10750 50  0001 C CNN
+F 1 "-22V" H 6750 10975 50  0000 C CNN
+F 2 "" H 6775 10825 60  0001 C CNN
+F 3 "" H 6775 10825 60  0001 C CNN
+	1    6775 10825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Split_Pad PD1
+U 1 1 5B00164E
+P 24025 3775
+F 0 "PD1" H 24050 3925 60  0001 C CNN
+F 1 "Split_Pad" H 24050 3625 60  0001 C CNN
+F 2 "Asteroids:SP" H 23950 3750 60  0001 C CNN
+F 3 "" H 23950 3750 60  0001 C CNN
+	1    24025 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L 9316 C_4
+U 1 1 5B004EE3
+P 4975 3575
+AR Path="/5B004EE3" Ref="C_4"  Part="1" 
+AR Path="/5AFFC8B6/5B004EE3" Ref="C_4"  Part="1" 
+F 0 "C_4" H 4975 3700 60  0000 C CNN
+F 1 "9316" H 4975 3600 60  0000 C CNN
+F 2 "Asteroids:DIP16" H 4975 3575 60  0001 C CNN
+F 3 "" H 4975 3575 60  0001 C CNN
+	1    4975 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Crystal Y1
+U 1 1 5B0077B9
+P 3375 2025
+F 0 "Y1" H 3375 2175 50  0000 C CNN
+F 1 "12.096MHz" H 3375 1875 50  0000 C CNN
+F 2 "Asteroids:RST" H 3375 2025 50  0001 C CNN
+F 3 "" H 3375 2025 50  0001 C CNN
+	1    3375 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L LS04 B_5
+U 6 1 5B00840B
+P 2575 2025
+F 0 "B_5" H 2750 2125 50  0000 C CNN
+F 1 "LS04" H 2775 1925 50  0000 C CNN
+F 2 "Asteroids:DIP14" H 2575 2025 50  0001 C CNN
+F 3 "" H 2575 2025 50  0001 C CNN
+	6    2575 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L LS04 B_5
+U 5 1 5B0084F2
+P 4175 2025
+F 0 "B_5" H 4350 2125 50  0000 C CNN
+F 1 "LS04" H 4375 1925 50  0000 C CNN
+F 2 "Asteroids:DIP14" H 4175 2025 50  0001 C CNN
+F 3 "" H 4175 2025 50  0001 C CNN
+	5    4175 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L LS04 B_5
+U 4 1 5B0085E7
+P 3675 2525
+F 0 "B_5" H 3850 2625 50  0000 C CNN
+F 1 "LS04" H 3875 2425 50  0000 C CNN
+F 2 "Asteroids:DIP14" H 3675 2525 50  0001 C CNN
+F 3 "" H 3675 2525 50  0001 C CNN
+	4    3675 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R30
+U 1 1 5B0086D4
+P 3125 1775
+F 0 "R30" V 3205 1775 50  0000 C CNN
+F 1 "330" V 3125 1775 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 3055 1775 50  0001 C CNN
+F 3 "" H 3125 1775 50  0001 C CNN
+	1    3125 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R31
+U 1 1 5B0087CD
+P 3625 1775
+F 0 "R31" V 3705 1775 50  0000 C CNN
+F 1 "330" V 3625 1775 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 3555 1775 50  0001 C CNN
+F 3 "" H 3625 1775 50  0001 C CNN
+	1    3625 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C18
+U 1 1 5B0088AC
+P 3400 1475
+F 0 "C18" H 3425 1575 50  0000 L CNN
+F 1 ".1uF" H 3425 1375 50  0000 L CNN
+F 2 "Asteroids:GenericC" H 3438 1325 50  0001 C CNN
+F 3 "" H 3400 1475 50  0001 C CNN
+	1    3400 1475
+	0    1    1    0   
+$EndComp
+$Comp
+L R R32
+U 1 1 5B0089AB
+P 2025 2275
+F 0 "R32" V 2105 2275 50  0000 C CNN
+F 1 "470" V 2025 2275 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 1955 2275 50  0001 C CNN
+F 3 "" H 2025 2275 50  0001 C CNN
+	1    2025 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR067
+U 1 1 5B00DAC8
+P 2025 2475
+F 0 "#PWR067" H 2025 2225 50  0001 C CNN
+F 1 "GND" H 2025 2325 50  0000 C CNN
+F 2 "" H 2025 2475 50  0001 C CNN
+F 3 "" H 2025 2475 50  0001 C CNN
+	1    2025 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR068
+U 1 1 5B01B8C4
+P 5100 4075
+F 0 "#PWR068" H 5100 3825 50  0001 C CNN
+F 1 "GND" H 5100 3925 50  0000 C CNN
+F 2 "" H 5100 4075 50  0001 C CNN
+F 3 "" H 5100 4075 50  0001 C CNN
+	1    5100 4075
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4850 4000
+Text GLabel 5750 3425 2    60   Input ~ 0
+6MHz
+Text GLabel 5750 3525 2    60   Input ~ 0
+3MHz
+Text GLabel 6175 3625 2    60   Input ~ 0
+1.5MHz
+$Comp
+L LS393 B_4
+U 1 1 5B031656
+P 6550 4875
+F 0 "B_4" H 6550 4975 60  0000 C CNN
+F 1 "LS393" H 6550 4850 60  0000 C CNN
+F 2 "Asteroids:DIP14" H 6875 5225 60  0001 C CNN
+F 3 "" H 6875 5225 60  0001 C CNN
+	1    6550 4875
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR069
+U 1 1 5B031E64
+P 6550 4125
+F 0 "#PWR069" H 6550 3975 50  0001 C CNN
+F 1 "+5V" H 6550 4265 50  0000 C CNN
+F 2 "" H 6550 4125 50  0001 C CNN
+F 3 "" H 6550 4125 50  0001 C CNN
+	1    6550 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR070
+U 1 1 5B031F99
+P 6550 5600
+F 0 "#PWR070" H 6550 5350 50  0001 C CNN
+F 1 "GND" H 6550 5450 50  0000 C CNN
+F 2 "" H 6550 5600 50  0001 C CNN
+F 3 "" H 6550 5600 50  0001 C CNN
+	1    6550 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR071
+U 1 1 5B033638
+P 5950 5600
+F 0 "#PWR071" H 5950 5350 50  0001 C CNN
+F 1 "GND" H 5950 5450 50  0000 C CNN
+F 2 "" H 5950 5600 50  0001 C CNN
+F 3 "" H 5950 5600 50  0001 C CNN
+	1    5950 5600
+	1    0    0    -1  
+$EndComp
+Text GLabel 7175 4975 2    60   Input ~ 0
+3KHz
+Text GLabel 7175 5175 2    60   Input ~ 0
+12KHz
+NoConn ~ 7075 4575
+NoConn ~ 7075 4675
+NoConn ~ 7075 4775
+NoConn ~ 7075 5075
+NoConn ~ 7075 5275
+Text Notes 4850 1475 0    300  ~ 0
+CLOCK CIRCUIT
+$Comp
+L SW_Push A_6
+U 1 1 5B03E85F
+P 9475 2625
+F 0 "A_6" H 9525 2725 50  0000 L CNN
+F 1 "RESET" H 9475 2565 50  0000 C CNN
+F 2 "Asteroids:RST" H 9475 2825 50  0001 C CNN
+F 3 "" H 9475 2825 50  0001 C CNN
+	1    9475 2625
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R33
+U 1 1 5B03EDFE
+P 9825 2375
+F 0 "R33" V 9905 2375 50  0000 C CNN
+F 1 "10K" V 9825 2375 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 9755 2375 50  0001 C CNN
+F 3 "" H 9825 2375 50  0001 C CNN
+	1    9825 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C25
+U 1 1 5B03EF13
+P 9825 2875
+F 0 "C25" H 9850 2975 50  0000 L CNN
+F 1 "1uF" H 9850 2775 50  0000 L CNN
+F 2 "Asteroids:Electrolytic2C" H 9863 2725 50  0001 C CNN
+F 3 "" H 9825 2875 50  0001 C CNN
+	1    9825 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L D CR1
+U 1 1 5B03F026
+P 10175 2375
+F 0 "CR1" H 10175 2475 50  0000 C CNN
+F 1 "1N914" H 10175 2275 50  0000 C CNN
+F 2 "Asteroids:Diode1" H 10175 2375 50  0001 C CNN
+F 3 "" H 10175 2375 50  0001 C CNN
+	1    10175 2375
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR072
+U 1 1 5B04127D
+P 9275 2700
+F 0 "#PWR072" H 9275 2450 50  0001 C CNN
+F 1 "GND" H 9275 2550 50  0000 C CNN
+F 2 "" H 9275 2700 50  0001 C CNN
+F 3 "" H 9275 2700 50  0001 C CNN
+	1    9275 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR073
+U 1 1 5B041EE0
+P 9825 3100
+F 0 "#PWR073" H 9825 2850 50  0001 C CNN
+F 1 "GND" H 9825 2950 50  0000 C CNN
+F 2 "" H 9825 3100 50  0001 C CNN
+F 3 "" H 9825 3100 50  0001 C CNN
+	1    9825 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR074
+U 1 1 5B043058
+P 9825 2075
+F 0 "#PWR074" H 9825 1925 50  0001 C CNN
+F 1 "+5V" H 9825 2215 50  0000 C CNN
+F 2 "" H 9825 2075 50  0001 C CNN
+F 3 "" H 9825 2075 50  0001 C CNN
+	1    9825 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L LS14 B_6
+U 6 2 5B045392
+P 10775 2625
+F 0 "B_6" H 10925 2725 50  0000 C CNN
+F 1 "LS14" H 10975 2525 50  0000 C CNN
+F 2 "Asteroids:DIP14" H 10875 2625 50  0001 C CNN
+F 3 "" H 10875 2625 50  0001 C CNN
+	6    10775 2625
+	1    0    0    -1  
+$EndComp
+$Comp
+L LS14 B_6
+U 5 1 5B0454F1
+P 11775 2625
+F 0 "B_6" H 11925 2725 50  0000 C CNN
+F 1 "LS14" H 11975 2525 50  0000 C CNN
+F 2 "Asteroids:DIP14" H 11875 2625 50  0001 C CNN
+F 3 "" H 11875 2625 50  0001 C CNN
+	5    11775 2625
+	1    0    0    -1  
+$EndComp
+$Comp
+L LS393 D_5
+U 1 1 5B049236
+P 13875 4925
+F 0 "D_5" H 13875 5025 60  0000 C CNN
+F 1 "LS393" H 13875 4900 60  0000 C CNN
+F 2 "Asteroids:DIP14" H 14200 5275 60  0001 C CNN
+F 3 "" H 14200 5275 60  0001 C CNN
+	1    13875 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L LS00 C_6
+U 2 2 5B049D39
+P 12700 3675
+F 0 "C_6" H 12750 3725 50  0000 C CNN
+F 1 "LS00" H 12750 3575 50  0000 C CNN
+F 2 "Asteroids:DIP14" H 12700 3675 50  0001 C CNN
+F 3 "" H 12700 3675 50  0001 C CNN
+	2    12700 3675
+	0    -1   1    0   
+$EndComp
+$Comp
+L LS08 E_6
+U 3 1 5B04A6C4
+P 14675 3650
+F 0 "E_6" H 14675 3700 50  0000 C CNN
+F 1 "LS08" H 14675 3600 50  0000 C CNN
+F 2 "Asteroids:DIP14" H 14675 3650 50  0001 C CNN
+F 3 "" H 14675 3650 50  0001 C CNN
+	3    14675 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L LS74 D_4
+U 2 1 5B04C5CD
+P 15375 4950
+F 0 "D_4" H 15375 4975 50  0000 C CNN
+F 1 "LS74" H 15375 4900 50  0000 C CNN
+F 2 "Asteroids:DIP14" H 15400 4700 300 0001 C CNN
+F 3 "" H 15400 4700 300 0001 C CNN
+	2    15375 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR075
+U 1 1 5B050BA8
+P 13875 5650
+F 0 "#PWR075" H 13875 5400 50  0001 C CNN
+F 1 "GND" H 13875 5500 50  0000 C CNN
+F 2 "" H 13875 5650 50  0001 C CNN
+F 3 "" H 13875 5650 50  0001 C CNN
+	1    13875 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR076
+U 1 1 5B050D69
+P 13875 4175
+F 0 "#PWR076" H 13875 4025 50  0001 C CNN
+F 1 "+5V" H 13875 4315 50  0000 C CNN
+F 2 "" H 13875 4175 50  0001 C CNN
+F 3 "" H 13875 4175 50  0001 C CNN
+	1    13875 4175
+	1    0    0    -1  
+$EndComp
+Text GLabel 13075 4625 0    60   Input ~ 0
+3KHz
+Text GLabel 12425 2950 0    60   Input ~ 0
+~WDCLR
+NoConn ~ 15950 4875
+Text GLabel 16275 5025 2    60   Input ~ 0
+~RESET
+$Comp
+L R R28
+U 1 1 5B05AF16
+P 14575 2575
+F 0 "R28" V 14655 2575 50  0000 C CNN
+F 1 "10K" V 14575 2575 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 14505 2575 50  0001 C CNN
+F 3 "" H 14575 2575 50  0001 C CNN
+	1    14575 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR077
+U 1 1 5B05BB6B
+P 14575 2325
+F 0 "#PWR077" H 14575 2175 50  0001 C CNN
+F 1 "+5V" H 14575 2465 50  0000 C CNN
+F 2 "" H 14575 2325 50  0001 C CNN
+F 3 "" H 14575 2325 50  0001 C CNN
+	1    14575 2325
+	1    0    0    -1  
+$EndComp
+NoConn ~ 14400 4625
+NoConn ~ 14400 4725
+NoConn ~ 14400 4825
+NoConn ~ 14400 5125
+NoConn ~ 14400 5225
+NoConn ~ 14400 5325
+Text Notes 9025 1500 0    300  ~ 0
+POWER RESET AND WATCHDOG TIMER
+$Comp
+L LS161 C_5
+U 1 1 5B06A637
+P 12900 9450
+F 0 "C_5" H 12900 9525 60  0000 C CNN
+F 1 "LS161" H 12900 9425 60  0000 C CNN
+F 2 "Asteroids:DIP16" H 12800 9875 60  0001 C CNN
+F 3 "" H 12800 9875 60  0001 C CNN
+	1    12900 9450
+	1    0    0    -1  
+$EndComp
+Text GLabel 12125 9400 0    50   Input ~ 0
+~TEST
+Text GLabel 12125 9500 0    50   Input ~ 0
+~RESET
+Text GLabel 12125 9600 0    50   Input ~ 0
+3KHz
+$Comp
+L GND #PWR078
+U 1 1 5B07C7C1
+P 12525 9025
+F 0 "#PWR078" H 12525 8775 50  0001 C CNN
+F 1 "GND" H 12525 8875 50  0000 C CNN
+F 2 "" H 12525 9025 50  0001 C CNN
+F 3 "" H 12525 9025 50  0001 C CNN
+	1    12525 9025
+	1    0    0    -1  
+$EndComp
+NoConn ~ 13000 9875
+NoConn ~ 12900 9875
+NoConn ~ 12800 9875
+NoConn ~ 12700 9875
+$Comp
+L GND #PWR079
+U 1 1 5B080606
+P 13200 9925
+F 0 "#PWR079" H 13200 9675 50  0001 C CNN
+F 1 "GND" H 13200 9775 50  0000 C CNN
+F 2 "" H 13200 9925 50  0001 C CNN
+F 3 "" H 13200 9925 50  0001 C CNN
+	1    13200 9925
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR080
+U 1 1 5B084ABF
+P 13200 8975
+F 0 "#PWR080" H 13200 8825 50  0001 C CNN
+F 1 "+5V" H 13200 9115 50  0000 C CNN
+F 2 "" H 13200 8975 50  0001 C CNN
+F 3 "" H 13200 8975 50  0001 C CNN
+	1    13200 8975
+	1    0    0    -1  
+$EndComp
+$Comp
+L LS04 B_5
+U 3 1 5B084B3A
+P 14225 9450
+F 0 "B_5" H 14400 9550 50  0000 C CNN
+F 1 "LS04" H 14425 9350 50  0000 C CNN
+F 2 "Asteroids:DIP14" H 14225 9450 50  0001 C CNN
+F 3 "" H 14225 9450 50  0001 C CNN
+	3    14225 9450
+	1    0    0    -1  
+$EndComp
+Text Notes 13450 7075 0    300  ~ 0
+NMI COUNTER
+Text GLabel 19400 7325 0    60   Input ~ 0
+~RESET
+$Comp
+L +5V #PWR081
+U 1 1 5B0A7D57
+P 22550 4025
+F 0 "#PWR081" H 22550 3875 50  0001 C CNN
+F 1 "+5V" H 22550 4165 50  0000 C CNN
+F 2 "" H 22550 4025 50  0001 C CNN
+F 3 "" H 22550 4025 50  0001 C CNN
+	1    22550 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR082
+U 1 1 5B0A7E46
+P 22550 5925
+F 0 "#PWR082" H 22550 5775 50  0001 C CNN
+F 1 "+5V" H 22550 6065 50  0000 C CNN
+F 2 "" H 22550 5925 50  0001 C CNN
+F 3 "" H 22550 5925 50  0001 C CNN
+	1    22550 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR083
+U 1 1 5B0A8680
+P 22225 5650
+F 0 "#PWR083" H 22225 5400 50  0001 C CNN
+F 1 "GND" H 22225 5500 50  0000 C CNN
+F 2 "" H 22225 5650 50  0001 C CNN
+F 3 "" H 22225 5650 50  0001 C CNN
+	1    22225 5650
+	1    0    0    -1  
+$EndComp
+Text GLabel 20775 5025 2    50   Input ~ 0
+A14
+Text GLabel 20775 5125 2    50   Input ~ 0
+A13
+NoConn ~ 20675 7325
+NoConn ~ 20675 8025
+$Comp
+L Split_Pad PD2
+U 1 1 5B0B09BF
+P 22600 5625
+F 0 "PD2" H 22625 5775 60  0001 C CNN
+F 1 "Split_Pad" H 22625 5475 60  0001 C CNN
+F 2 "Asteroids:SP" H 22525 5600 60  0001 C CNN
+F 3 "" H 22525 5600 60  0001 C CNN
+	1    22600 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L LS244 B_2
+U 1 1 5B0B3FED
+P 22550 4850
+F 0 "B_2" H 22550 4650 50  0000 C CNN
+F 1 "LS244" H 22550 4550 50  0000 C CNN
+F 2 "Asteroids:DIP20" H 22550 4850 50  0001 C CNN
+F 3 "" H 22550 4850 50  0001 C CNN
+	1    22550 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LS244 C_2
+U 1 1 5B0B8209
+P 22550 6725
+F 0 "C_2" H 22550 6525 50  0000 C CNN
+F 1 "LS244" H 22550 6425 50  0000 C CNN
+F 2 "Asteroids:DIP20" H 22550 6725 50  0001 C CNN
+F 3 "" H 22550 6725 50  0001 C CNN
+	1    22550 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR084
+U 1 1 5B0BA9CC
+P 22225 7525
+F 0 "#PWR084" H 22225 7275 50  0001 C CNN
+F 1 "GND" H 22225 7375 50  0000 C CNN
+F 2 "" H 22225 7525 50  0001 C CNN
+F 3 "" H 22225 7525 50  0001 C CNN
+	1    22225 7525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Split_Pad PD3
+U 1 1 5B0BA9D2
+P 22600 7500
+F 0 "PD3" H 22625 7650 60  0001 C CNN
+F 1 "Split_Pad" H 22625 7350 60  0001 C CNN
+F 2 "Asteroids:SP" H 22525 7475 60  0001 C CNN
+F 3 "" H 22525 7475 60  0001 C CNN
+	1    22600 7500
+	1    0    0    -1  
+$EndComp
+Text GLabel 23350 4550 2    60   Input ~ 0
+AB9
+Text GLabel 23350 4650 2    60   Input ~ 0
+AB8
+Text GLabel 23350 4450 2    60   Input ~ 0
+R/~WB
+Text GLabel 23350 4750 2    60   Input ~ 0
+AB10
+Text GLabel 23350 4850 2    60   Input ~ 0
+AB12
+Text GLabel 23350 4950 2    60   Input ~ 0
+AB11
+Text GLabel 21775 5050 0    60   Input ~ 0
+1.5MHz
+Text GLabel 23350 5050 2    60   Input ~ 0
+VGCK
+$Comp
+L LS14 B_6
+U 4 1 5B0C5B2F
+P 23800 5375
+F 0 "B_6" H 23950 5475 50  0000 C CNN
+F 1 "LS14" H 24000 5275 50  0000 C CNN
+F 2 "Asteroids:DIP14" H 23900 5375 50  0001 C CNN
+F 3 "" H 23900 5375 50  0001 C CNN
+	4    23800 5375
+	1    0    0    -1  
+$EndComp
+Text GLabel 24375 5150 2    60   Input ~ 0
+O2
+Text GLabel 24375 5375 2    60   Input ~ 0
+~O2
+$Comp
+L R R18
+U 1 1 5B0C86F2
+P 23150 5625
+F 0 "R18" V 23230 5625 50  0000 C CNN
+F 1 "10K" V 23150 5625 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 23080 5625 50  0001 C CNN
+F 3 "" H 23150 5625 50  0001 C CNN
+	1    23150 5625
+	0    1    1    0   
+$EndComp
+$Comp
+L R R17
+U 1 1 5B0C8A67
+P 23150 7500
+F 0 "R17" V 23230 7500 50  0000 C CNN
+F 1 "10K" V 23150 7500 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 23080 7500 50  0001 C CNN
+F 3 "" H 23150 7500 50  0001 C CNN
+	1    23150 7500
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR085
+U 1 1 5B0C91C4
+P 23350 5575
+F 0 "#PWR085" H 23350 5425 50  0001 C CNN
+F 1 "+5V" H 23350 5715 50  0000 C CNN
+F 2 "" H 23350 5575 50  0001 C CNN
+F 3 "" H 23350 5575 50  0001 C CNN
+	1    23350 5575
+	1    0    0    -1  
+$EndComp
+Text GLabel 23350 6325 2    60   Input ~ 0
+AB6
+$Comp
+L +5V #PWR086
+U 1 1 5B0CE347
+P 23350 7450
+F 0 "#PWR086" H 23350 7300 50  0001 C CNN
+F 1 "+5V" H 23350 7590 50  0000 C CNN
+F 2 "" H 23350 7450 50  0001 C CNN
+F 3 "" H 23350 7450 50  0001 C CNN
+	1    23350 7450
+	1    0    0    -1  
+$EndComp
+Text GLabel 23350 6425 2    60   Input ~ 0
+AB5
+Text GLabel 23350 6525 2    60   Input ~ 0
+AB3
+Text GLabel 23350 6625 2    60   Input ~ 0
+AB1
+Text GLabel 23350 6725 2    60   Input ~ 0
+AB2
+Text GLabel 23350 6825 2    60   Input ~ 0
+AB0
+Text GLabel 23350 6925 2    60   Input ~ 0
+AB4
+Text GLabel 23350 7025 2    60   Input ~ 0
+AB7
+$Comp
+L LS245 E_3
+U 1 1 5B0DB389
+P 22550 8675
+F 0 "E_3" H 22500 8825 50  0000 L BNN
+F 1 "LS245" H 22425 8525 50  0000 L TNN
+F 2 "Asteroids:DIP20" H 22550 8675 50  0001 C CNN
+F 3 "" H 22550 8675 50  0001 C CNN
+	1    22550 8675
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR087
+U 1 1 5B0DB587
+P 22550 7875
+F 0 "#PWR087" H 22550 7725 50  0001 C CNN
+F 1 "+5V" H 22550 8015 50  0000 C CNN
+F 2 "" H 22550 7875 50  0001 C CNN
+F 3 "" H 22550 7875 50  0001 C CNN
+	1    22550 7875
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR088
+U 1 1 5B0DC54B
+P 22675 9475
+F 0 "#PWR088" H 22675 9225 50  0001 C CNN
+F 1 "GND" H 22675 9325 50  0000 C CNN
+F 2 "" H 22675 9475 50  0001 C CNN
+F 3 "" H 22675 9475 50  0001 C CNN
+	1    22675 9475
+	1    0    0    -1  
+$EndComp
+Text GLabel 22025 9550 0    60   Input ~ 0
+R/~WB
+Text GLabel 24400 8725 2    60   Input ~ 0
+DB3
+Text GLabel 24400 8825 2    60   Input ~ 0
+DB2
+Text GLabel 24400 8925 2    60   Input ~ 0
+DB1
+Text GLabel 24400 9025 2    60   Input ~ 0
+DB0
+Text GLabel 24400 8325 2    60   Input ~ 0
+DB7
+Text GLabel 24400 8425 2    60   Input ~ 0
+DB6
+Text GLabel 24400 8525 2    60   Input ~ 0
+DB5
+Text GLabel 24400 8625 2    60   Input ~ 0
+DB4
+$Comp
+L R R16
+U 1 1 5B0EE062
+P 23475 8075
+F 0 "R16" V 23555 8075 50  0000 C CNN
+F 1 "10K" V 23475 8075 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 23405 8075 50  0001 C CNN
+F 3 "" H 23475 8075 50  0001 C CNN
+	1    23475 8075
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R15
+U 1 1 5B0EE3BF
+P 23650 8075
+F 0 "R15" V 23730 8075 50  0000 C CNN
+F 1 "10K" V 23650 8075 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 23580 8075 50  0001 C CNN
+F 3 "" H 23650 8075 50  0001 C CNN
+	1    23650 8075
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R13
+U 1 1 5B0EE4C6
+P 23825 8075
+F 0 "R13" V 23905 8075 50  0000 C CNN
+F 1 "10K" V 23825 8075 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 23755 8075 50  0001 C CNN
+F 3 "" H 23825 8075 50  0001 C CNN
+	1    23825 8075
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R11
+U 1 1 5B0EE5D1
+P 24000 8075
+F 0 "R11" V 24080 8075 50  0000 C CNN
+F 1 "10K" V 24000 8075 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 23930 8075 50  0001 C CNN
+F 3 "" H 24000 8075 50  0001 C CNN
+	1    24000 8075
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R14
+U 1 1 5B0EEA3B
+P 23475 9275
+F 0 "R14" V 23555 9275 50  0000 C CNN
+F 1 "10K" V 23475 9275 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 23405 9275 50  0001 C CNN
+F 3 "" H 23475 9275 50  0001 C CNN
+	1    23475 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R12
+U 1 1 5B0EEB48
+P 23650 9275
+F 0 "R12" V 23730 9275 50  0000 C CNN
+F 1 "10K" V 23650 9275 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 23580 9275 50  0001 C CNN
+F 3 "" H 23650 9275 50  0001 C CNN
+	1    23650 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 5B0EEC57
+P 23825 9275
+F 0 "R10" V 23905 9275 50  0000 C CNN
+F 1 "10K" V 23825 9275 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 23755 9275 50  0001 C CNN
+F 3 "" H 23825 9275 50  0001 C CNN
+	1    23825 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 5B0EED68
+P 24000 9275
+F 0 "R9" V 24080 9275 50  0000 C CNN
+F 1 "10K" V 24000 9275 50  0000 C CNN
+F 2 "Asteroids:GenericR" V 23930 9275 50  0001 C CNN
+F 3 "" H 24000 9275 50  0001 C CNN
+	1    24000 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR089
+U 1 1 5B0F4573
+P 23475 7825
+F 0 "#PWR089" H 23475 7675 50  0001 C CNN
+F 1 "+5V" H 23475 7965 50  0000 C CNN
+F 2 "" H 23475 7825 50  0001 C CNN
+F 3 "" H 23475 7825 50  0001 C CNN
+	1    23475 7825
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR090
+U 1 1 5B0F46FB
+P 23275 9425
+F 0 "#PWR090" H 23275 9275 50  0001 C CNN
+F 1 "+5V" H 23275 9565 50  0000 C CNN
+F 2 "" H 23275 9425 50  0001 C CNN
+F 3 "" H 23275 9425 50  0001 C CNN
+	1    23275 9425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Split_Pad PD4
+U 1 1 5B0F8CBA
+P 24400 4125
+F 0 "PD4" H 24425 4275 60  0001 C CNN
+F 1 "Split_Pad" H 24425 3975 60  0001 C CNN
+F 2 "Asteroids:SP" H 24325 4100 60  0001 C CNN
+F 3 "" H 24325 4100 60  0001 C CNN
+	1    24400 4125
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR091
+U 1 1 5B0F9488
+P 24400 4475
+F 0 "#PWR091" H 24400 4225 50  0001 C CNN
+F 1 "GND" H 24400 4325 50  0000 C CNN
+F 2 "" H 24400 4475 50  0001 C CNN
+F 3 "" H 24400 4475 50  0001 C CNN
+	1    24400 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L LS42 L_6
+U 1 1 5B0FACF2
+P 33950 7550
+F 0 "L_6" H 33950 7600 50  0000 C CNN
+F 1 "LS42" H 33950 7500 50  0000 C CNN
+F 2 "Asteroids:DIP16" H 33950 7550 50  0001 C CNN
+F 3 "" H 33950 7550 50  0001 C CNN
+	1    33950 7550
+	1    0    0    -1  
+$EndComp
+Text Notes 22200 2650 0    300  ~ 0
+MPU CIRCUITRY
+$Comp
+L LS139 E_4
+U 2 1 5B11FCA8
+P 30125 4075
+F 0 "E_4" H 30125 4175 50  0000 C CNN
+F 1 "LS139" H 30125 3975 50  0000 C CNN
+F 2 "Asteroids:DIP16" H 30125 4075 50  0001 C CNN
+F 3 "" H 30125 4075 50  0001 C CNN
+	2    30125 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L LS139 E_4
+U 1 1 5B11FDCD
+P 35500 3725
+F 0 "E_4" H 35500 3825 50  0000 C CNN
+F 1 "LS139" H 35500 3625 50  0000 C CNN
+F 2 "Asteroids:DIP16" H 35500 3725 50  0001 C CNN
+F 3 "" H 35500 3725 50  0001 C CNN
+	1    35500 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L LS139 L_3
+U 1 1 5B11FF64
+P 35500 5725
+F 0 "L_3" H 35500 5825 50  0000 C CNN
+F 1 "LS139" H 35500 5625 50  0000 C CNN
+F 2 "Asteroids:DIP16" H 35500 5725 50  0001 C CNN
+F 3 "" H 35500 5725 50  0001 C CNN
+	1    35500 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L LS00 C_6
+U 3 1 5B1204F7
+P 33650 3425
+F 0 "C_6" H 33700 3475 50  0000 C CNN
+F 1 "LS00" H 33700 3325 50  0000 C CNN
+F 2 "Asteroids:DIP14" H 33650 3425 50  0001 C CNN
+F 3 "" H 33650 3425 50  0001 C CNN
+	3    33650 3425
+	1    0    0    1   
+$EndComp
+$Comp
+L LS02 D_6
+U 3 2 5B1217E6
+P 32175 3325
+F 0 "D_6" H 32250 3375 50  0000 C CNN
+F 1 "LS02" H 32275 3275 50  0000 C CNN
+F 2 "Asteroids:DIP14" H 32175 3325 50  0001 C CNN
+F 3 "" H 32175 3325 50  0001 C CNN
+	3    32175 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L LS02 D_6
+U 2 2 5B1219DA
+P 31625 6300
+F 0 "D_6" H 31700 6350 50  0000 C CNN
+F 1 "LS02" H 31725 6250 50  0000 C CNN
+F 2 "Asteroids:DIP14" H 31625 6300 50  0001 C CNN
+F 3 "" H 31625 6300 50  0001 C CNN
+	2    31625 6300
+	0    -1   1    0   
+$EndComp
+$Comp
+L LS20 E_5
+U 2 1 5B125044
+P 32450 7150
+F 0 "E_5" H 32450 7250 50  0000 C CNN
+F 1 "LS20" H 32450 7050 50  0000 C CNN
+F 2 "Asteroids:DIP14" H 32450 7150 50  0001 C CNN
+F 3 "" H 32450 7150 50  0001 C CNN
+	2    32450 7150
+	1    0    0    1   
+$EndComp
+Text GLabel 31625 7200 0    60   Input ~ 0
+O2
+Text GLabel 31625 7300 0    60   Input ~ 0
+AB12
+Text GLabel 31625 7100 0    60   Input ~ 0
+3MHz
+Text GLabel 33150 7500 0    60   Input ~ 0
+AB11
+Text GLabel 33150 7600 0    60   Input ~ 0
+AB10
+Text GLabel 33150 7700 0    60   Input ~ 0
+AB9
+$Comp
+L +5V #PWR092
+U 1 1 5B12A817
+P 33950 6975
+F 0 "#PWR092" H 33950 6825 50  0001 C CNN
+F 1 "+5V" H 33950 7115 50  0000 C CNN
+F 2 "" H 33950 6975 50  0001 C CNN
+F 3 "" H 33950 6975 50  0001 C CNN
+	1    33950 6975
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR093
+U 1 1 5B12AC58
+P 35500 4950
+F 0 "#PWR093" H 35500 4800 50  0001 C CNN
+F 1 "+5V" H 35500 5090 50  0000 C CNN
+F 2 "" H 35500 4950 50  0001 C CNN
+F 3 "" H 35500 4950 50  0001 C CNN
+	1    35500 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR094
+U 1 1 5B12B3C3
+P 35500 2950
+F 0 "#PWR094" H 35500 2800 50  0001 C CNN
+F 1 "+5V" H 35500 3090 50  0000 C CNN
+F 2 "" H 35500 2950 50  0001 C CNN
+F 3 "" H 35500 2950 50  0001 C CNN
+	1    35500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR095
+U 1 1 5B12CDA3
+P 35500 6475
+F 0 "#PWR095" H 35500 6225 50  0001 C CNN
+F 1 "GND" H 35500 6325 50  0000 C CNN
+F 2 "" H 35500 6475 50  0001 C CNN
+F 3 "" H 35500 6475 50  0001 C CNN
+	1    35500 6475
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR096
+U 1 1 5B12D1E4
+P 33950 8100
+F 0 "#PWR096" H 33950 7850 50  0001 C CNN
+F 1 "GND" H 33950 7950 50  0000 C CNN
+F 2 "" H 33950 8100 50  0001 C CNN
+F 3 "" H 33950 8100 50  0001 C CNN
+	1    33950 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR097
+U 1 1 5B12DD00
+P 35500 4475
+F 0 "#PWR097" H 35500 4225 50  0001 C CNN
+F 1 "GND" H 35500 4325 50  0000 C CNN
+F 2 "" H 35500 4475 50  0001 C CNN
+F 3 "" H 35500 4475 50  0001 C CNN
+	1    35500 4475
+	1    0    0    -1  
+$EndComp
+Text GLabel 32925 3525 0    60   Input ~ 0
+R/~WB
+Text GLabel 34425 3625 0    60   Input ~ 0
+AB11
+Text GLabel 34425 3825 0    60   Input ~ 0
+AB10
+NoConn ~ 36350 3425
+Text GLabel 36525 3625 2    60   Input ~ 0
+~OPTS
+Text GLabel 36525 3825 2    60   Input ~ 0
+~SINP1
+Text GLabel 36525 4025 2    60   Input ~ 0
+~SINP0
+Text GLabel 36525 5425 2    60   Input ~ 0
+~PROM2
+Text GLabel 36525 5625 2    60   Input ~ 0
+~PROM1
+Text GLabel 36525 5825 2    60   Input ~ 0
+~PROM0
+NoConn ~ 36350 6025
+Text GLabel 34425 5625 0    60   Input ~ 0
+AB12
+Text GLabel 34425 5825 0    60   Input ~ 0
+AB11
+Text GLabel 34425 5425 0    60   Input ~ 0
+~PMEM
+Text GLabel 31400 3225 0    60   Input ~ 0
+AB12
+Text GLabel 31075 3775 2    60   Input ~ 0
+~PMEM
+Text GLabel 31075 3975 2    60   Input ~ 0
+~VMEM
+Text GLabel 31075 4375 2    60   Input ~ 0
+~ZPAGE
+Text GLabel 31725 5575 1    60   Input ~ 0
+R/~WB
+Text GLabel 29050 3975 0    60   Input ~ 0
+A14
+Text GLabel 29050 4175 0    60   Input ~ 0
+A13
+NoConn ~ 34600 7100
+NoConn ~ 34600 7200
+Text GLabel 34825 7150 2    60   Input ~ 0
+~NOISERESET
+Text GLabel 34825 7300 2    60   Input ~ 0
+~AUDIO
+Text GLabel 34825 7450 2    60   Input ~ 0
+~THUMP
+Text GLabel 34825 7600 2    60   Input ~ 0
+~DMACNT
+Text GLabel 34825 7750 2    60   Input ~ 0
+~EXPLODE
+Text GLabel 34825 7900 2    60   Input ~ 0
+~WDCLR
+Text GLabel 34825 8050 2    60   Input ~ 0
+~OUT
+Text GLabel 34825 8200 2    60   Input ~ 0
+~DMAGO
+Text Notes 30700 2650 0    300  ~ 0
+ADDRESS DECODING CIRCUITRY
+$Comp
+L +5V #PWR098
+U 1 1 5B17085E
+P 2950 12950
+F 0 "#PWR098" H 2950 12800 50  0001 C CNN
+F 1 "+5V" H 2950 13090 50  0000 C CNN
+F 2 "" H 2950 12950 50  0001 C CNN
+F 3 "" H 2950 12950 50  0001 C CNN
+	1    2950 12950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LS04 L_5
+U 3 1 5B330B8A
+P 3125 15625
+F 0 "L_5" H 3300 15725 50  0000 C CNN
+F 1 "LS04" H 3325 15525 50  0000 C CNN
+F 2 "Asteroids:DIP14" H 3125 15625 50  0001 C CNN
+F 3 "" H 3125 15625 50  0001 C CNN
+	3    3125 15625
+	1    0    0    -1  
+$EndComp
+Text GLabel 26075 13875 0    50   Input ~ 0
+RAMSEL
+Text GLabel 20775 4925 2    50   Input ~ 0
+A15
+Text GLabel 21675 5225 2    50   Input ~ 0
+A12
+Text GLabel 21675 5325 2    50   Input ~ 0
+A11
+Text GLabel 21675 5425 2    50   Input ~ 0
+A10
+Text GLabel 21675 5525 2    50   Input ~ 0
+A9
+Text GLabel 21675 5625 2    50   Input ~ 0
+A8
+Text GLabel 21775 5900 2    50   Input ~ 0
+A7
+Text GLabel 21775 6000 2    50   Input ~ 0
+A6
+Text GLabel 21775 6100 2    50   Input ~ 0
+A5
+Text GLabel 21775 6200 2    50   Input ~ 0
+A4
+Text GLabel 21775 7125 2    50   Input ~ 0
+A3
+Text GLabel 21775 7225 2    50   Input ~ 0
+A2
+Text GLabel 21775 7325 2    50   Input ~ 0
+A1
+Text GLabel 21775 7425 2    50   Input ~ 0
+A0
+Text GLabel 21775 7525 2    50   Input ~ 0
+D7
+Text GLabel 21775 7625 2    50   Input ~ 0
+D6
+Text GLabel 21775 7725 2    50   Input ~ 0
+D5
+Text GLabel 21775 7825 2    50   Input ~ 0
+D4
+Text GLabel 21775 9100 2    50   Input ~ 0
+D3
+Text GLabel 21775 9200 2    50   Input ~ 0
+D2
+Text GLabel 21775 9300 2    50   Input ~ 0
+D1
+Text GLabel 21775 9400 2    50   Input ~ 0
+D0
+Text GLabel 21475 4250 2    50   Input ~ 0
+R_W
+Text GLabel 20775 5500 2    50   Input ~ 0
+O_2
+Text GLabel 5375 10875 0    50   Input ~ 0
+36_VAC2_
+Text GLabel 5450 8375 0    50   Input ~ 0
+36VAC1_
+Text GLabel 2750 6975 2    50   Input ~ 0
+PR29
+Text GLabel 15250 5650 0    50   Input ~ 0
+PR29
+Text GLabel 12125 9300 0    50   Input ~ 0
+PR29
+Text GLabel 12775 8775 0    50   Input ~ 0
+PR29
+Text GLabel 19250 5250 0    60   Input ~ 0
+PR29
+Text GLabel 4225 3325 0    60   Input ~ 0
+PR29
+Text GLabel 4950 2675 2    60   Input ~ 0
+PR29
+Text GLabel 2425 6975 0    50   Input ~ 0
+PR27
+Text GLabel 6625 7850 2    50   Input ~ 0
+22V0
+$Comp
+L AST_TEST TP5
+U 1 1 5C489437
+P 3075 7125
+F 0 "TP5" H 3075 7425 50  0001 C BNN
+F 1 "+5V" H 3075 7375 50  0000 C CNN
+F 2 "Asteroids:TEST_POINT" H 3075 7125 50  0001 C CNN
+F 3 "" H 3075 7125 50  0001 C CNN
+	1    3075 7125
+	1    0    0    -1  
+$EndComp
+$Comp
+L AST_TEST TP1
+U 1 1 5C48B51D
+P 14075 2825
+F 0 "TP1" H 14075 3125 50  0001 C BNN
+F 1 "WDOG_DISABLE" H 14075 3075 50  0000 C CNN
+F 2 "Asteroids:TEST_POINT" H 14075 2825 50  0001 C CNN
+F 3 "" H 14075 2825 50  0001 C CNN
+	1    14075 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L AST_TEST TP2
+U 1 1 5C48CE6E
+P 24075 5050
+F 0 "TP2" H 24075 5350 50  0001 C BNN
+F 1 "O2" H 24075 5300 50  0000 C CNN
+F 2 "Asteroids:TEST_POINT" H 24075 5050 50  0001 C CNN
+F 3 "" H 24075 5050 50  0001 C CNN
+	1    24075 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20125 8875 20125 8825
+Wire Wire Line
+	20125 8825 20025 8825
+Wire Wire Line
+	20075 4625 20075 4575
+Wire Wire Line
+	3550 16725 3650 16725
+Wire Wire Line
+	3550 16825 3650 16825
+Wire Wire Line
+	3550 16925 3650 16925
+Wire Wire Line
+	3550 17025 3650 17025
+Wire Wire Line
+	2550 16425 2450 16425
+Wire Wire Line
+	2550 16525 2450 16525
+Wire Wire Line
+	2550 16625 2450 16625
+Wire Wire Line
+	2550 16725 2450 16725
+Wire Wire Line
+	2550 16825 2450 16825
+Wire Wire Line
+	2550 16925 2450 16925
+Wire Wire Line
+	2550 17025 2450 17025
+Wire Wire Line
+	2550 17125 2450 17125
+Wire Wire Line
+	2550 17225 2450 17225
+Wire Wire Line
+	2550 17325 2450 17325
+Wire Wire Line
+	3125 17700 3125 17600
+Wire Wire Line
+	3125 16150 3125 16050
+Wire Wire Line
+	5350 16725 5450 16725
+Wire Wire Line
+	5350 16825 5450 16825
+Wire Wire Line
+	5350 16925 5450 16925
+Wire Wire Line
+	5350 17025 5450 17025
+Wire Wire Line
+	4350 16425 4250 16425
+Wire Wire Line
+	4350 16525 4250 16525
+Wire Wire Line
+	4350 16625 4250 16625
+Wire Wire Line
+	4350 16725 4250 16725
+Wire Wire Line
+	4350 16825 4250 16825
+Wire Wire Line
+	4350 16925 4250 16925
+Wire Wire Line
+	4350 17025 4250 17025
+Wire Wire Line
+	4350 17125 4250 17125
+Wire Wire Line
+	4350 17225 4250 17225
+Wire Wire Line
+	4350 17325 4250 17325
+Wire Wire Line
+	4925 17700 4925 17600
+Wire Wire Line
+	4925 16150 4925 16050
+Wire Wire Line
+	7150 16725 7250 16725
+Wire Wire Line
+	7150 16825 7250 16825
+Wire Wire Line
+	7150 16925 7250 16925
+Wire Wire Line
+	7150 17025 7250 17025
+Wire Wire Line
+	6150 16425 6050 16425
+Wire Wire Line
+	6150 16525 6050 16525
+Wire Wire Line
+	6150 16625 6050 16625
+Wire Wire Line
+	6150 16725 6050 16725
+Wire Wire Line
+	6150 16825 6050 16825
+Wire Wire Line
+	6150 16925 6050 16925
+Wire Wire Line
+	6150 17025 6050 17025
+Wire Wire Line
+	6150 17125 6050 17125
+Wire Wire Line
+	6150 17225 6050 17225
+Wire Wire Line
+	6150 17325 6050 17325
+Wire Wire Line
+	6725 17700 6725 17600
+Wire Wire Line
+	6725 16150 6725 16050
+Wire Wire Line
+	8950 16725 9050 16725
+Wire Wire Line
+	8950 16825 9050 16825
+Wire Wire Line
+	8950 16925 9050 16925
+Wire Wire Line
+	8950 17025 9050 17025
+Wire Wire Line
+	7950 16425 7850 16425
+Wire Wire Line
+	7950 16525 7850 16525
+Wire Wire Line
+	7950 16625 7850 16625
+Wire Wire Line
+	7950 16725 7850 16725
+Wire Wire Line
+	7950 16825 7850 16825
+Wire Wire Line
+	7950 16925 7850 16925
+Wire Wire Line
+	7950 17025 7850 17025
+Wire Wire Line
+	7950 17125 7850 17125
+Wire Wire Line
+	7950 17225 7850 17225
+Wire Wire Line
+	7950 17325 7850 17325
+Wire Wire Line
+	8525 17700 8525 17600
+Wire Wire Line
+	8525 16150 8525 16050
+Wire Wire Line
+	10750 16725 10850 16725
+Wire Wire Line
+	10750 16825 10850 16825
+Wire Wire Line
+	10750 16925 10850 16925
+Wire Wire Line
+	10750 17025 10850 17025
+Wire Wire Line
+	9750 16425 9650 16425
+Wire Wire Line
+	9750 16525 9650 16525
+Wire Wire Line
+	9750 16625 9650 16625
+Wire Wire Line
+	9750 16725 9650 16725
+Wire Wire Line
+	9750 16825 9650 16825
+Wire Wire Line
+	9750 16925 9650 16925
+Wire Wire Line
+	9750 17025 9650 17025
+Wire Wire Line
+	9750 17125 9650 17125
+Wire Wire Line
+	9750 17225 9650 17225
+Wire Wire Line
+	9750 17325 9650 17325
+Wire Wire Line
+	10325 17700 10325 17600
+Wire Wire Line
+	10325 16150 10325 16050
+Wire Wire Line
+	12550 16725 12650 16725
+Wire Wire Line
+	12550 16825 12650 16825
+Wire Wire Line
+	12550 16925 12650 16925
+Wire Wire Line
+	12550 17025 12650 17025
+Wire Wire Line
+	11550 16425 11450 16425
+Wire Wire Line
+	11550 16525 11450 16525
+Wire Wire Line
+	11550 16625 11450 16625
+Wire Wire Line
+	11550 16725 11450 16725
+Wire Wire Line
+	11550 16825 11450 16825
+Wire Wire Line
+	11550 16925 11450 16925
+Wire Wire Line
+	11550 17025 11450 17025
+Wire Wire Line
+	11550 17125 11450 17125
+Wire Wire Line
+	11550 17225 11450 17225
+Wire Wire Line
+	11550 17325 11450 17325
+Wire Wire Line
+	12125 17700 12125 17600
+Wire Wire Line
+	12125 16150 12125 16050
+Wire Wire Line
+	14350 16725 14450 16725
+Wire Wire Line
+	14350 16825 14450 16825
+Wire Wire Line
+	14350 16925 14450 16925
+Wire Wire Line
+	14350 17025 14450 17025
+Wire Wire Line
+	13350 16425 13250 16425
+Wire Wire Line
+	13350 16525 13250 16525
+Wire Wire Line
+	13350 16625 13250 16625
+Wire Wire Line
+	13350 16725 13250 16725
+Wire Wire Line
+	13350 16825 13250 16825
+Wire Wire Line
+	13350 16925 13250 16925
+Wire Wire Line
+	13350 17025 13250 17025
+Wire Wire Line
+	13350 17125 13250 17125
+Wire Wire Line
+	13350 17225 13250 17225
+Wire Wire Line
+	13350 17325 13250 17325
+Wire Wire Line
+	13925 17700 13925 17600
+Wire Wire Line
+	13925 16150 13925 16050
+Wire Wire Line
+	16150 16725 16250 16725
+Wire Wire Line
+	16150 16825 16250 16825
+Wire Wire Line
+	16150 16925 16250 16925
+Wire Wire Line
+	16150 17025 16250 17025
+Wire Wire Line
+	15150 16425 15050 16425
+Wire Wire Line
+	15150 16525 15050 16525
+Wire Wire Line
+	15150 16625 15050 16625
+Wire Wire Line
+	15150 16725 15050 16725
+Wire Wire Line
+	15150 16825 15050 16825
+Wire Wire Line
+	15150 16925 15050 16925
+Wire Wire Line
+	15150 17025 15050 17025
+Wire Wire Line
+	15150 17125 15050 17125
+Wire Wire Line
+	15150 17225 15050 17225
+Wire Wire Line
+	15150 17325 15050 17325
+Wire Wire Line
+	15725 17700 15725 17600
+Wire Wire Line
+	15725 16150 15725 16050
+Wire Wire Line
+	17950 16725 18050 16725
+Wire Wire Line
+	17950 16825 18050 16825
+Wire Wire Line
+	17950 16925 18050 16925
+Wire Wire Line
+	17950 17025 18050 17025
+Wire Wire Line
+	16950 16425 16850 16425
+Wire Wire Line
+	16950 16525 16850 16525
+Wire Wire Line
+	16950 16625 16850 16625
+Wire Wire Line
+	16950 16725 16850 16725
+Wire Wire Line
+	16950 16825 16850 16825
+Wire Wire Line
+	16950 16925 16850 16925
+Wire Wire Line
+	16950 17025 16850 17025
+Wire Wire Line
+	16950 17125 16850 17125
+Wire Wire Line
+	16950 17225 16850 17225
+Wire Wire Line
+	16950 17325 16850 17325
+Wire Wire Line
+	17525 17700 17525 17600
+Wire Wire Line
+	17525 16150 17525 16050
+Wire Wire Line
+	19750 16725 19850 16725
+Wire Wire Line
+	19750 16825 19850 16825
+Wire Wire Line
+	19750 16925 19850 16925
+Wire Wire Line
+	19750 17025 19850 17025
+Wire Wire Line
+	18750 16425 18650 16425
+Wire Wire Line
+	18750 16525 18650 16525
+Wire Wire Line
+	18750 16625 18650 16625
+Wire Wire Line
+	18750 16725 18650 16725
+Wire Wire Line
+	18750 16825 18650 16825
+Wire Wire Line
+	18750 16925 18650 16925
+Wire Wire Line
+	18750 17025 18650 17025
+Wire Wire Line
+	18750 17125 18650 17125
+Wire Wire Line
+	18750 17225 18650 17225
+Wire Wire Line
+	18750 17325 18650 17325
+Wire Wire Line
+	19325 17700 19325 17600
+Wire Wire Line
+	19325 16150 19325 16050
+Wire Wire Line
+	21550 16725 21650 16725
+Wire Wire Line
+	21550 16825 21650 16825
+Wire Wire Line
+	21550 16925 21650 16925
+Wire Wire Line
+	21550 17025 21650 17025
+Wire Wire Line
+	20550 16425 20450 16425
+Wire Wire Line
+	20550 16525 20450 16525
+Wire Wire Line
+	20550 16625 20450 16625
+Wire Wire Line
+	20550 16725 20450 16725
+Wire Wire Line
+	20550 16825 20450 16825
+Wire Wire Line
+	20550 16925 20450 16925
+Wire Wire Line
+	20550 17025 20450 17025
+Wire Wire Line
+	20550 17125 20450 17125
+Wire Wire Line
+	20550 17225 20450 17225
+Wire Wire Line
+	20550 17325 20450 17325
+Wire Wire Line
+	21125 17700 21125 17600
+Wire Wire Line
+	21125 16150 21125 16050
+Wire Wire Line
+	23350 16725 23450 16725
+Wire Wire Line
+	23350 16825 23450 16825
+Wire Wire Line
+	23350 16925 23450 16925
+Wire Wire Line
+	23350 17025 23450 17025
+Wire Wire Line
+	22350 16425 22250 16425
+Wire Wire Line
+	22350 16525 22250 16525
+Wire Wire Line
+	22350 16625 22250 16625
+Wire Wire Line
+	22350 16725 22250 16725
+Wire Wire Line
+	22350 16825 22250 16825
+Wire Wire Line
+	22350 16925 22250 16925
+Wire Wire Line
+	22350 17025 22250 17025
+Wire Wire Line
+	22350 17125 22250 17125
+Wire Wire Line
+	22350 17225 22250 17225
+Wire Wire Line
+	22350 17325 22250 17325
+Wire Wire Line
+	22925 17700 22925 17600
+Wire Wire Line
+	22925 16150 22925 16050
+Wire Wire Line
+	11975 15625 11975 16150
+Wire Wire Line
+	8375 15625 8375 16150
+Connection ~ 8375 15625
+Wire Wire Line
+	4775 15625 4775 16150
+Connection ~ 4775 15625
+Wire Wire Line
+	3575 15625 22775 15625
+Wire Wire Line
+	2600 15825 20975 15825
+Wire Wire Line
+	2975 15825 2975 16150
+Wire Wire Line
+	6575 15825 6575 16150
+Wire Wire Line
+	10175 15825 10175 16150
+Connection ~ 6575 15825
+Wire Wire Line
+	13775 15825 13775 16150
+Connection ~ 10175 15825
+Wire Wire Line
+	15575 15625 15575 16150
+Connection ~ 11975 15625
+Wire Wire Line
+	17375 15825 17375 16150
+Connection ~ 13775 15825
+Wire Wire Line
+	19175 15625 19175 16150
+Connection ~ 15575 15625
+Wire Wire Line
+	20975 15825 20975 16150
+Connection ~ 17375 15825
+Wire Wire Line
+	22775 15625 22775 16150
+Connection ~ 19175 15625
+Wire Wire Line
+	4775 17950 4775 17600
+Wire Wire Line
+	2625 17950 15575 17950
+Wire Wire Line
+	2600 15825 2600 15625
+Wire Wire Line
+	2500 15625 2675 15625
+Connection ~ 2975 15825
+Connection ~ 2600 15625
+Wire Wire Line
+	2975 17600 2975 17950
+Connection ~ 2975 17950
+Wire Wire Line
+	13775 17950 13775 17600
+Connection ~ 4775 17950
+Wire Wire Line
+	15575 17950 15575 17600
+Connection ~ 13775 17950
+Wire Wire Line
+	2625 18100 19175 18100
+Wire Wire Line
+	6575 18100 6575 17600
+Wire Wire Line
+	8375 18100 8375 17600
+Connection ~ 6575 18100
+Wire Wire Line
+	17375 18100 17375 17600
+Connection ~ 8375 18100
+Wire Wire Line
+	19175 18100 19175 17600
+Connection ~ 17375 18100
+Wire Wire Line
+	2625 18250 22775 18250
+Wire Wire Line
+	10175 18250 10175 17600
+Wire Wire Line
+	11975 18250 11975 17600
+Connection ~ 10175 18250
+Wire Wire Line
+	20975 18250 20975 17600
+Connection ~ 11975 18250
+Wire Wire Line
+	22775 18250 22775 17600
+Connection ~ 20975 18250
+Wire Wire Line
+	2850 13050 2850 13000
+Wire Wire Line
+	2850 13000 2950 13000
+Wire Wire Line
+	5225 2950 5225 3050
+Connection ~ 2950 13000
+Wire Wire Line
+	4400 13050 4400 13000
+Wire Wire Line
+	4400 13000 4500 13000
+Wire Wire Line
+	4500 12950 4500 13050
+Connection ~ 4500 13000
+Wire Wire Line
+	5950 13050 5950 13000
+Wire Wire Line
+	5950 13000 6050 13000
+Wire Wire Line
+	6050 12950 6050 13050
+Connection ~ 6050 13000
+Wire Wire Line
+	2900 14550 2900 14600
+Wire Wire Line
+	2900 14600 3000 14600
+Wire Wire Line
+	3000 14550 3000 14625
+Connection ~ 3000 14600
+Wire Wire Line
+	4450 14550 4450 14600
+Wire Wire Line
+	4450 14600 4550 14600
+Wire Wire Line
+	4550 14550 4550 14625
+Connection ~ 4550 14600
+Wire Wire Line
+	6000 14550 6000 14600
+Wire Wire Line
+	6000 14600 6100 14600
+Wire Wire Line
+	6100 14550 6100 14625
+Connection ~ 6100 14600
+Wire Wire Line
+	2600 14850 2800 14850
+Wire Wire Line
+	2800 14850 2800 14550
+Wire Wire Line
+	2600 15000 4350 15000
+Wire Wire Line
+	4350 15000 4350 14550
+Wire Wire Line
+	2600 15150 5900 15150
+Wire Wire Line
+	5900 15150 5900 14550
+Wire Notes Line
+	1450 12425 1450 18675
+Wire Notes Line
+	1450 18675 24200 18675
+Wire Notes Line
+	24200 18675 24200 12425
+Wire Notes Line
+	24200 12425 1450 12425
+Wire Wire Line
+	29675 14200 29575 14200
+Wire Wire Line
+	27725 14400 27625 14400
+Wire Wire Line
+	29675 14400 29575 14400
+Wire Wire Line
+	29675 14500 29575 14500
+Wire Wire Line
+	29675 14600 29575 14600
+Wire Wire Line
+	29675 14700 29575 14700
+Wire Wire Line
+	29675 14800 29575 14800
+Wire Wire Line
+	29675 14900 29575 14900
+Wire Wire Line
+	29675 15000 29575 15000
+Wire Wire Line
+	29675 15100 29575 15100
+Wire Wire Line
+	31500 14200 31400 14200
+Wire Wire Line
+	31500 14400 31400 14400
+Wire Wire Line
+	31500 14500 31400 14500
+Wire Wire Line
+	31500 14600 31400 14600
+Wire Wire Line
+	31500 14700 31400 14700
+Wire Wire Line
+	31500 14800 31400 14800
+Wire Wire Line
+	31500 14900 31400 14900
+Wire Wire Line
+	31500 15000 31400 15000
+Wire Wire Line
+	31500 15100 31400 15100
+Wire Wire Line
+	30650 14550 30750 14550
+Wire Wire Line
+	30650 14650 30750 14650
+Wire Wire Line
+	30650 14750 30750 14750
+Wire Wire Line
+	30650 14850 30750 14850
+Wire Wire Line
+	32475 14550 32575 14550
+Wire Wire Line
+	32475 14650 32575 14650
+Wire Wire Line
+	32475 14750 32575 14750
+Wire Wire Line
+	32475 14850 32575 14850
+Wire Wire Line
+	28925 14300 29675 14300
+Wire Wire Line
+	30225 15550 30225 15450
+Wire Wire Line
+	32050 15550 32050 15450
+Wire Wire Line
+	30125 15450 30125 15850
+Wire Wire Line
+	29700 15850 31950 15850
+Wire Wire Line
+	31950 15850 31950 15450
+Connection ~ 30125 15850
+Wire Wire Line
+	27725 14200 27525 14200
+Wire Wire Line
+	27525 14200 27525 13975
+Wire Wire Line
+	27525 13975 27375 13975
+Wire Wire Line
+	30175 13950 30175 13850
+Wire Wire Line
+	32000 13950 32000 13850
+Wire Wire Line
+	29675 15200 29575 15200
+Wire Wire Line
+	31500 15200 31400 15200
+Wire Wire Line
+	28500 15750 28375 15750
+Wire Wire Line
+	28500 15950 28375 15950
+Wire Wire Line
+	29150 14300 29150 13625
+Wire Wire Line
+	29150 13625 31075 13625
+Wire Wire Line
+	31075 13625 31075 14300
+Wire Wire Line
+	31075 14300 31500 14300
+Connection ~ 29150 14300
+Wire Wire Line
+	26175 14075 26075 14075
+Wire Notes Line
+	24775 16775 34050 16775
+Wire Notes Line
+	34050 16775 34050 12425
+Wire Notes Line
+	34050 12425 24775 12425
+Connection ~ 2500 7375
+Wire Wire Line
+	2500 7550 2500 7375
+Wire Wire Line
+	2500 8225 2500 7850
+Wire Wire Line
+	2950 7325 2950 7475
+Connection ~ 2675 7375
+Wire Wire Line
+	2950 7775 2950 7850
+Wire Wire Line
+	2325 8225 2950 8225
+Wire Wire Line
+	2950 8150 2950 8275
+Connection ~ 2950 7375
+Connection ~ 2950 8225
+Wire Wire Line
+	1800 8800 4050 8800
+Connection ~ 3800 8800
+Connection ~ 3550 8800
+Connection ~ 3300 8800
+Connection ~ 3050 8800
+Connection ~ 2800 8800
+Connection ~ 2550 8800
+Connection ~ 2300 8800
+Connection ~ 2050 8800
+Wire Wire Line
+	1800 9100 4050 9100
+Connection ~ 2050 9100
+Connection ~ 2300 9100
+Connection ~ 2550 9100
+Connection ~ 2800 9100
+Connection ~ 3050 9100
+Connection ~ 3300 9100
+Connection ~ 3550 9100
+Connection ~ 3800 9100
+Wire Wire Line
+	1800 8800 1800 8750
+Wire Wire Line
+	1800 9150 1800 9100
+Wire Wire Line
+	1800 9575 4050 9575
+Connection ~ 3800 9575
+Connection ~ 3550 9575
+Connection ~ 3300 9575
+Connection ~ 3050 9575
+Connection ~ 2800 9575
+Connection ~ 2550 9575
+Connection ~ 2300 9575
+Connection ~ 2050 9575
+Wire Wire Line
+	1800 9875 4050 9875
+Connection ~ 2050 9875
+Connection ~ 2300 9875
+Connection ~ 2550 9875
+Connection ~ 2800 9875
+Connection ~ 3050 9875
+Connection ~ 3300 9875
+Connection ~ 3550 9875
+Connection ~ 3800 9875
+Wire Wire Line
+	1800 9575 1800 9525
+Wire Wire Line
+	1800 9925 1800 9875
+Wire Wire Line
+	1800 10350 4050 10350
+Connection ~ 3800 10350
+Connection ~ 3550 10350
+Connection ~ 3300 10350
+Connection ~ 3050 10350
+Connection ~ 2800 10350
+Connection ~ 2550 10350
+Connection ~ 2300 10350
+Connection ~ 2050 10350
+Wire Wire Line
+	1800 10650 4050 10650
+Connection ~ 2050 10650
+Connection ~ 2300 10650
+Connection ~ 2550 10650
+Connection ~ 2800 10650
+Connection ~ 3050 10650
+Connection ~ 3300 10650
+Connection ~ 3550 10650
+Connection ~ 3800 10650
+Wire Wire Line
+	1800 10350 1800 10300
+Wire Wire Line
+	1800 10700 1800 10650
+Wire Wire Line
+	1800 11125 3800 11125
+Connection ~ 3550 11125
+Connection ~ 3300 11125
+Connection ~ 3050 11125
+Connection ~ 2800 11125
+Connection ~ 2550 11125
+Connection ~ 2300 11125
+Connection ~ 2050 11125
+Wire Wire Line
+	1800 11425 3800 11425
+Connection ~ 2050 11425
+Connection ~ 2300 11425
+Connection ~ 2550 11425
+Connection ~ 2800 11425
+Connection ~ 3050 11425
+Connection ~ 3300 11425
+Connection ~ 3550 11425
+Wire Wire Line
+	1800 11125 1800 11075
+Wire Wire Line
+	1800 11475 1800 11425
+Wire Wire Line
+	5450 8375 6150 8375
+Wire Wire Line
+	5650 8800 5650 8725
+Connection ~ 5650 8375
+Wire Wire Line
+	5375 10875 6150 10875
+Wire Wire Line
+	5900 10575 6150 10575
+Wire Wire Line
+	5900 8375 5900 10575
+Connection ~ 5900 8375
+Wire Wire Line
+	6150 8675 6025 8675
+Wire Wire Line
+	6025 8675 6025 10875
+Connection ~ 6025 10875
+Wire Wire Line
+	5650 11300 5650 11225
+Connection ~ 5650 10875
+Wire Wire Line
+	6775 8800 6775 8725
+Wire Wire Line
+	6450 8375 7000 8375
+Connection ~ 6775 8375
+Wire Wire Line
+	6525 8675 6450 8675
+Wire Wire Line
+	6525 7850 6525 8675
+Connection ~ 6525 8375
+Wire Wire Line
+	6450 10575 6525 10575
+Wire Wire Line
+	6525 10575 6525 10875
+Wire Wire Line
+	6450 10875 7000 10875
+Wire Wire Line
+	7850 8800 7850 8725
+Wire Wire Line
+	7600 8375 8075 8375
+Connection ~ 6950 8375
+Wire Wire Line
+	6950 8375 6950 10025
+Wire Wire Line
+	6950 9200 7000 9200
+Wire Wire Line
+	7850 8325 7850 8425
+Wire Wire Line
+	7850 9150 7850 9250
+Wire Wire Line
+	7850 9200 7600 9200
+Wire Wire Line
+	7300 8675 7300 8725
+Wire Wire Line
+	7300 9500 7300 9550
+Wire Wire Line
+	7850 10450 7850 10375
+Wire Wire Line
+	7600 10025 7850 10025
+Wire Wire Line
+	6950 10025 7000 10025
+Connection ~ 6950 9200
+Wire Wire Line
+	7300 10325 7300 10375
+Connection ~ 6525 10875
+Wire Wire Line
+	6775 11300 6775 11225
+Wire Wire Line
+	6775 8325 6775 8425
+Wire Wire Line
+	5650 8425 5650 8375
+Wire Wire Line
+	5650 10925 5650 10875
+Wire Wire Line
+	6775 10825 6775 10925
+Connection ~ 6775 10875
+Wire Wire Line
+	7300 11225 7300 11175
+Wire Wire Line
+	7850 11250 7850 11175
+Wire Wire Line
+	7600 10875 8075 10875
+Wire Wire Line
+	8425 10925 8425 10875
+Wire Wire Line
+	8375 10875 8750 10875
+Wire Wire Line
+	8750 10825 8750 10925
+Wire Wire Line
+	8425 11225 8425 11275
+Wire Wire Line
+	8425 11275 8750 11275
+Wire Wire Line
+	8750 11275 8750 11225
+Wire Wire Line
+	8600 11325 8600 11275
+Connection ~ 8600 11275
+Connection ~ 8425 10875
+Connection ~ 7850 10875
+Wire Wire Line
+	7850 10825 7850 10875
+Connection ~ 8750 10875
+Connection ~ 7850 9200
+Connection ~ 7850 10025
+Wire Wire Line
+	7850 9550 7850 9600
+Wire Wire Line
+	7850 9975 7850 10075
+Connection ~ 7850 8375
+Wire Wire Line
+	8425 8425 8425 8375
+Wire Wire Line
+	8375 8375 9100 8375
+Wire Wire Line
+	9100 8325 9100 8425
+Wire Wire Line
+	8750 8375 8750 8425
+Wire Wire Line
+	8425 8725 8425 8775
+Wire Wire Line
+	8425 8775 8750 8775
+Wire Wire Line
+	8750 8775 8750 8725
+Wire Wire Line
+	8600 8825 8600 8775
+Connection ~ 8600 8775
+Connection ~ 8425 8375
+Connection ~ 8750 8375
+Wire Wire Line
+	9100 8725 9100 8825
+Wire Notes Line
+	1500 6650 1500 11700
+Wire Notes Line
+	1500 11700 9500 11700
+Wire Notes Line
+	9500 11700 9500 6650
+Wire Notes Line
+	9500 6650 1500 6650
+Wire Wire Line
+	2500 6975 2500 7075
+Wire Wire Line
+	2675 6975 2675 7075
+Wire Wire Line
+	3525 2025 3725 2025
+Wire Wire Line
+	3625 2025 3625 1925
+Connection ~ 3625 2025
+Wire Wire Line
+	3625 1625 3625 1475
+Wire Wire Line
+	3550 1475 4725 1475
+Wire Wire Line
+	2025 1475 3250 1475
+Wire Wire Line
+	3125 1475 3125 1625
+Wire Wire Line
+	3125 1925 3125 2525
+Wire Wire Line
+	3025 2025 3225 2025
+Connection ~ 3125 2025
+Wire Wire Line
+	3125 2525 3225 2525
+Wire Wire Line
+	2025 1475 2025 2125
+Wire Wire Line
+	2025 2025 2125 2025
+Wire Wire Line
+	2025 2475 2025 2425
+Wire Wire Line
+	4625 2025 4725 2025
+Wire Wire Line
+	4725 2025 4725 1475
+Connection ~ 3625 1475
+Connection ~ 3125 1475
+Connection ~ 2025 2025
+Wire Wire Line
+	4725 3050 4725 2525
+Wire Wire Line
+	4850 2675 4850 3050
+Wire Wire Line
+	4850 2925 5100 2925
+Wire Wire Line
+	4975 2925 4975 3050
+Wire Wire Line
+	5100 2925 5100 3050
+Connection ~ 4850 2925
+Connection ~ 4975 2925
+Wire Wire Line
+	4350 3725 4400 3725
+Wire Wire Line
+	4350 3325 4350 4050
+Wire Wire Line
+	4350 3625 4400 3625
+Wire Wire Line
+	4400 3525 4350 3525
+Connection ~ 4350 3625
+Wire Wire Line
+	4400 3425 4350 3425
+Connection ~ 4350 3525
+Connection ~ 4350 3425
+Wire Wire Line
+	5100 4000 5100 4075
+Wire Wire Line
+	4975 4000 4975 4050
+Wire Wire Line
+	4975 4050 4350 4050
+Connection ~ 4350 3725
+Wire Wire Line
+	5600 3425 5750 3425
+Wire Wire Line
+	5600 3525 5750 3525
+Wire Wire Line
+	5600 3625 6175 3625
+Wire Wire Line
+	17800 5925 19475 5925
+Wire Wire Line
+	4725 2525 4125 2525
+Wire Wire Line
+	6025 4575 5950 4575
+Wire Wire Line
+	5950 4575 5950 3725
+Wire Wire Line
+	5950 3725 5600 3725
+Wire Wire Line
+	6550 4125 6550 4225
+Wire Wire Line
+	6550 5525 6550 5600
+Wire Wire Line
+	7075 4475 7150 4475
+Wire Wire Line
+	7150 4475 7150 3875
+Wire Wire Line
+	7150 3875 5700 3875
+Wire Wire Line
+	5700 3875 5700 5075
+Wire Wire Line
+	5700 5075 6025 5075
+Wire Wire Line
+	6025 4675 5950 4675
+Wire Wire Line
+	5950 4675 5950 5600
+Wire Wire Line
+	6025 5175 5950 5175
+Connection ~ 5950 5175
+Wire Wire Line
+	7175 5175 7075 5175
+Wire Wire Line
+	7175 4975 7075 4975
+Wire Notes Line
+	1500 1050 1500 6000
+Wire Notes Line
+	1500 6000 8325 6000
+Wire Notes Line
+	8325 6000 8325 1050
+Wire Notes Line
+	8325 1050 1500 1050
+Wire Wire Line
+	9275 2625 9275 2700
+Wire Wire Line
+	9675 2625 10325 2625
+Wire Wire Line
+	9825 2525 9825 2725
+Connection ~ 9825 2625
+Wire Wire Line
+	9825 3025 9825 3100
+Wire Wire Line
+	10175 2525 10175 2625
+Connection ~ 10175 2625
+Wire Wire Line
+	10175 2225 10175 2175
+Wire Wire Line
+	10175 2175 9825 2175
+Wire Wire Line
+	9825 2075 9825 2225
+Connection ~ 9825 2175
+Wire Wire Line
+	11325 2625 11225 2625
+Wire Wire Line
+	14400 5025 14800 5025
+Wire Wire Line
+	13875 5575 13875 5650
+Wire Wire Line
+	13875 4175 13875 4275
+Wire Wire Line
+	12800 2075 12800 3075
+Wire Wire Line
+	12800 2625 12225 2625
+Wire Wire Line
+	13350 4725 12700 4725
+Wire Wire Line
+	12700 4275 12700 5225
+Wire Wire Line
+	12700 5225 13350 5225
+Connection ~ 12700 4725
+Wire Wire Line
+	14400 4525 14475 4525
+Wire Wire Line
+	14475 4525 14475 3950
+Wire Wire Line
+	14475 3950 13200 3950
+Wire Wire Line
+	13200 3950 13200 5125
+Wire Wire Line
+	13200 5125 13350 5125
+Wire Wire Line
+	13075 4625 13350 4625
+Wire Wire Line
+	12600 3075 12600 2950
+Wire Wire Line
+	12600 2950 12425 2950
+Wire Wire Line
+	14800 4875 14675 4875
+Wire Wire Line
+	14675 4875 14675 4250
+Wire Wire Line
+	15325 5525 15325 5650
+Wire Wire Line
+	14775 3050 14775 3000
+Wire Wire Line
+	14775 3000 16175 3000
+Wire Wire Line
+	16175 3000 16175 5025
+Wire Wire Line
+	15950 5025 16275 5025
+Connection ~ 16175 5025
+Wire Wire Line
+	14575 2725 14575 3050
+Wire Wire Line
+	14575 2325 14575 2425
+Wire Wire Line
+	15325 4375 15325 2075
+Wire Wire Line
+	15325 2075 12800 2075
+Connection ~ 12800 2625
+Wire Wire Line
+	14075 2875 14575 2875
+Connection ~ 14575 2875
+Wire Notes Line
+	8950 1050 8950 6175
+Wire Notes Line
+	8950 6175 17425 6175
+Wire Notes Line
+	17425 6175 17425 1050
+Wire Notes Line
+	17425 1050 8950 1050
+Wire Wire Line
+	12250 9300 12125 9300
+Wire Wire Line
+	12250 9400 12125 9400
+Wire Wire Line
+	12250 9500 12125 9500
+Wire Wire Line
+	12250 9600 12125 9600
+Wire Wire Line
+	13000 8925 13000 9025
+Wire Wire Line
+	12525 8925 13000 8925
+Wire Wire Line
+	12700 8925 12700 9025
+Wire Wire Line
+	12800 9025 12800 8925
+Connection ~ 12800 8925
+Wire Wire Line
+	12525 8925 12525 9025
+Connection ~ 12700 8925
+Wire Wire Line
+	13200 9925 13200 9875
+Wire Wire Line
+	13200 9025 13200 8975
+Wire Wire Line
+	13650 9450 13775 9450
+Wire Wire Line
+	13100 9025 13100 8775
+Wire Wire Line
+	13100 8775 14800 8775
+Wire Wire Line
+	14800 8775 14800 9450
+Wire Wire Line
+	14675 9450 17850 9450
+Connection ~ 14800 9450
+Wire Wire Line
+	12900 9025 12900 8775
+Wire Notes Line
+	10375 6650 10375 11700
+Wire Notes Line
+	10375 11700 16625 11700
+Wire Notes Line
+	16625 11700 16625 6650
+Wire Notes Line
+	16625 6650 10375 6650
+Wire Wire Line
+	19475 7325 19400 7325
+Wire Wire Line
+	17850 8025 19475 8025
+Wire Wire Line
+	19375 5525 19475 5525
+Wire Wire Line
+	19375 5250 19375 5525
+Wire Wire Line
+	19375 5325 19475 5325
+Wire Wire Line
+	19475 5425 19375 5425
+Connection ~ 19375 5425
+Connection ~ 19375 5325
+Wire Wire Line
+	22550 5975 22550 5925
+Wire Wire Line
+	20675 5025 20775 5025
+Wire Wire Line
+	20675 5125 20775 5125
+Wire Wire Line
+	20675 4925 20775 4925
+Wire Wire Line
+	20725 3775 20725 4925
+Wire Wire Line
+	20725 3775 23775 3775
+Wire Wire Line
+	22875 5625 22875 5600
+Wire Wire Line
+	22850 5625 23000 5625
+Wire Wire Line
+	22225 5625 22350 5625
+Wire Wire Line
+	22325 5625 22325 5600
+Wire Wire Line
+	22225 5600 22225 5650
+Connection ~ 22325 5625
+Connection ~ 22225 5625
+Wire Wire Line
+	22550 4025 22550 4100
+Wire Wire Line
+	22225 7475 22225 7525
+Wire Wire Line
+	22850 7500 23000 7500
+Wire Wire Line
+	22875 7500 22875 7475
+Wire Wire Line
+	22225 7500 22350 7500
+Wire Wire Line
+	22325 7500 22325 7475
+Connection ~ 22325 7500
+Connection ~ 22225 7500
+Wire Wire Line
+	21050 5325 20675 5325
+Wire Wire Line
+	21050 4375 21050 5325
+Wire Wire Line
+	21050 4450 21850 4450
+Wire Wire Line
+	21100 4550 21850 4550
+Wire Wire Line
+	21100 4550 21100 5925
+Wire Wire Line
+	21100 5925 20675 5925
+Wire Wire Line
+	23250 4550 23350 4550
+Wire Wire Line
+	21150 6025 20675 6025
+Wire Wire Line
+	21150 4650 21150 6025
+Wire Wire Line
+	21150 4650 21850 4650
+Wire Wire Line
+	23250 4650 23350 4650
+Wire Wire Line
+	23250 4450 23350 4450
+Wire Wire Line
+	21200 4750 21850 4750
+Wire Wire Line
+	21200 4750 21200 5825
+Wire Wire Line
+	21200 5825 20675 5825
+Wire Wire Line
+	23250 4750 23350 4750
+Wire Wire Line
+	21250 5625 20675 5625
+Wire Wire Line
+	21250 4850 21250 5625
+Wire Wire Line
+	21250 4850 21850 4850
+Wire Wire Line
+	23250 4850 23350 4850
+Wire Wire Line
+	21300 5725 20675 5725
+Wire Wire Line
+	21300 4950 21300 5725
+Wire Wire Line
+	21300 4950 21850 4950
+Wire Wire Line
+	23250 4950 23350 4950
+Wire Wire Line
+	21775 5050 21850 5050
+Wire Wire Line
+	23250 5050 23350 5050
+Wire Wire Line
+	21850 5150 21350 5150
+Wire Wire Line
+	21350 5150 21350 5425
+Wire Wire Line
+	21350 5425 20675 5425
+Wire Wire Line
+	23250 5150 24375 5150
+Wire Wire Line
+	23350 5375 23300 5375
+Wire Wire Line
+	23300 5375 23300 5150
+Connection ~ 23300 5150
+Wire Wire Line
+	24250 5375 24375 5375
+Connection ~ 22875 5625
+Wire Wire Line
+	23350 5575 23350 5625
+Wire Wire Line
+	23350 5625 23300 5625
+Wire Wire Line
+	20675 6525 21050 6525
+Wire Wire Line
+	21050 6525 21050 6325
+Wire Wire Line
+	21050 6325 21850 6325
+Wire Wire Line
+	23250 6325 23350 6325
+Connection ~ 22875 7500
+Wire Wire Line
+	23300 7500 23350 7500
+Wire Wire Line
+	23350 7500 23350 7450
+Wire Wire Line
+	20675 6625 21100 6625
+Wire Wire Line
+	21100 6625 21100 6425
+Wire Wire Line
+	21100 6425 21850 6425
+Wire Wire Line
+	23250 6425 23350 6425
+Wire Wire Line
+	20675 6825 21150 6825
+Wire Wire Line
+	21150 6825 21150 6525
+Wire Wire Line
+	21150 6525 21850 6525
+Wire Wire Line
+	23250 6525 23350 6525
+Wire Wire Line
+	20675 7025 21200 7025
+Wire Wire Line
+	21200 7025 21200 6625
+Wire Wire Line
+	21200 6625 21850 6625
+Wire Wire Line
+	23250 6625 23350 6625
+Wire Wire Line
+	20675 6925 21250 6925
+Wire Wire Line
+	21250 6925 21250 6725
+Wire Wire Line
+	21250 6725 21850 6725
+Wire Wire Line
+	23250 6725 23350 6725
+Wire Wire Line
+	21850 6825 21300 6825
+Wire Wire Line
+	21300 6825 21300 7125
+Wire Wire Line
+	21300 7125 20675 7125
+Wire Wire Line
+	23250 6825 23350 6825
+Wire Wire Line
+	20675 6725 21075 6725
+Wire Wire Line
+	21075 6725 21075 7175
+Wire Wire Line
+	21075 7175 21350 7175
+Wire Wire Line
+	21350 7175 21350 6925
+Wire Wire Line
+	21350 6925 21850 6925
+Wire Wire Line
+	23250 6925 23350 6925
+Wire Wire Line
+	21400 7025 21850 7025
+Wire Wire Line
+	21400 5900 21400 7025
+Wire Wire Line
+	21400 6225 21000 6225
+Wire Wire Line
+	21000 6225 21000 6425
+Wire Wire Line
+	21000 6425 20675 6425
+Wire Wire Line
+	23250 7025 23350 7025
+Wire Wire Line
+	22550 7925 22550 7875
+Wire Wire Line
+	22675 9425 22675 9475
+Wire Wire Line
+	22550 9425 22550 9450
+Wire Wire Line
+	22550 9450 22675 9450
+Connection ~ 22675 9450
+Wire Wire Line
+	21850 8325 21700 8325
+Wire Wire Line
+	21700 8325 21700 7525
+Wire Wire Line
+	20675 7525 21775 7525
+Wire Wire Line
+	20675 7625 21775 7625
+Wire Wire Line
+	21600 7625 21600 8425
+Wire Wire Line
+	21600 8425 21850 8425
+Wire Wire Line
+	21850 8525 21500 8525
+Wire Wire Line
+	21500 8525 21500 7725
+Wire Wire Line
+	20675 7725 21775 7725
+Wire Wire Line
+	21850 8625 21400 8625
+Wire Wire Line
+	21400 8625 21400 7825
+Wire Wire Line
+	20675 7825 21775 7825
+Wire Wire Line
+	21850 8725 21300 8725
+Wire Wire Line
+	21300 8225 21300 9100
+Wire Wire Line
+	21300 8225 20675 8225
+Wire Wire Line
+	20675 8325 21200 8325
+Wire Wire Line
+	21200 8325 21200 9200
+Wire Wire Line
+	21200 8825 21850 8825
+Wire Wire Line
+	21850 8925 21100 8925
+Wire Wire Line
+	21100 8425 21100 9300
+Wire Wire Line
+	21100 8425 20675 8425
+Wire Wire Line
+	20675 8525 21000 8525
+Wire Wire Line
+	21000 8525 21000 9400
+Wire Wire Line
+	21000 9025 21850 9025
+Wire Wire Line
+	22025 9550 22425 9550
+Wire Wire Line
+	22425 9550 22425 9425
+Wire Wire Line
+	23250 9025 24400 9025
+Wire Wire Line
+	23250 8925 24400 8925
+Wire Wire Line
+	23250 8825 24400 8825
+Wire Wire Line
+	23250 8725 24400 8725
+Wire Wire Line
+	23250 8325 24400 8325
+Wire Wire Line
+	23250 8425 24400 8425
+Wire Wire Line
+	23250 8525 24400 8525
+Wire Wire Line
+	23250 8625 24400 8625
+Wire Wire Line
+	23475 9125 23475 9025
+Connection ~ 23475 9025
+Wire Wire Line
+	23650 9125 23650 8925
+Connection ~ 23650 8925
+Wire Wire Line
+	23825 9125 23825 8825
+Connection ~ 23825 8825
+Wire Wire Line
+	24000 9125 24000 8725
+Connection ~ 24000 8725
+Wire Wire Line
+	24000 8225 24000 8625
+Connection ~ 24000 8625
+Wire Wire Line
+	23825 8225 23825 8525
+Connection ~ 23825 8525
+Wire Wire Line
+	23650 8225 23650 8425
+Connection ~ 23650 8425
+Wire Wire Line
+	23475 8225 23475 8325
+Connection ~ 23475 8325
+Wire Wire Line
+	23475 7825 23475 7925
+Wire Wire Line
+	23650 7925 23650 7875
+Wire Wire Line
+	23475 7875 24000 7875
+Connection ~ 23475 7875
+Wire Wire Line
+	23825 7875 23825 7925
+Connection ~ 23650 7875
+Wire Wire Line
+	24000 7875 24000 7925
+Connection ~ 23825 7875
+Wire Wire Line
+	23275 9425 23275 9475
+Wire Wire Line
+	23275 9475 24000 9475
+Wire Wire Line
+	23475 9475 23475 9425
+Wire Wire Line
+	23650 9475 23650 9425
+Connection ~ 23475 9475
+Wire Wire Line
+	23825 9475 23825 9425
+Connection ~ 23650 9475
+Wire Wire Line
+	24000 9475 24000 9425
+Connection ~ 23825 9475
+Wire Wire Line
+	22875 7500 22325 7500
+Wire Wire Line
+	22875 5625 22325 5625
+Wire Wire Line
+	24275 3775 29275 3775
+Wire Wire Line
+	24400 3775 24400 4475
+Connection ~ 24400 4375
+Connection ~ 24400 3875
+Wire Notes Line
+	18450 2225 18450 10675
+Wire Notes Line
+	18450 10675 25750 10675
+Wire Notes Line
+	25750 10675 25750 2225
+Wire Notes Line
+	25750 2225 18450 2225
+Connection ~ 24400 3775
+Wire Wire Line
+	17850 9450 17850 8025
+Wire Wire Line
+	6075 3625 6075 3725
+Wire Wire Line
+	6075 3725 8700 3725
+Wire Wire Line
+	8700 3725 8700 6450
+Wire Wire Line
+	8700 6450 17800 6450
+Wire Wire Line
+	17800 6450 17800 5925
+Connection ~ 6075 3625
+Wire Wire Line
+	33225 7150 33050 7150
+Wire Wire Line
+	31850 7000 31625 7000
+Wire Wire Line
+	31625 7000 31625 6900
+Wire Wire Line
+	31850 7200 31625 7200
+Wire Wire Line
+	31850 7300 31625 7300
+Wire Wire Line
+	31850 7100 31625 7100
+Wire Wire Line
+	33300 7500 33150 7500
+Wire Wire Line
+	33300 7600 33150 7600
+Wire Wire Line
+	33300 7700 33150 7700
+Wire Wire Line
+	33950 6975 33950 7050
+Wire Wire Line
+	35500 4950 35500 5025
+Wire Wire Line
+	35500 2950 35500 3025
+Wire Wire Line
+	35500 6475 35500 6425
+Wire Wire Line
+	33950 8100 33950 8050
+Wire Wire Line
+	35500 4475 35500 4425
+Wire Wire Line
+	34650 3425 34250 3425
+Wire Wire Line
+	33050 3325 32775 3325
+Wire Wire Line
+	33050 3525 32925 3525
+Wire Wire Line
+	34650 3625 34425 3625
+Wire Wire Line
+	34650 3825 34425 3825
+Wire Wire Line
+	36350 3625 36525 3625
+Wire Wire Line
+	36350 3825 36525 3825
+Wire Wire Line
+	36350 4025 36525 4025
+Wire Wire Line
+	36350 5425 36525 5425
+Wire Wire Line
+	36350 5625 36525 5625
+Wire Wire Line
+	36350 5825 36525 5825
+Wire Wire Line
+	34650 5625 34425 5625
+Wire Wire Line
+	34425 5825 34650 5825
+Wire Wire Line
+	34650 5425 34425 5425
+Wire Wire Line
+	31575 3225 31400 3225
+Wire Wire Line
+	30975 3775 31075 3775
+Wire Wire Line
+	30975 3975 31075 3975
+Wire Wire Line
+	30975 4175 31525 4175
+Wire Wire Line
+	31525 3425 31525 5700
+Wire Wire Line
+	31525 3425 31575 3425
+Wire Wire Line
+	30975 4375 31075 4375
+Connection ~ 31525 4175
+Wire Wire Line
+	31725 5700 31725 5575
+Wire Wire Line
+	29275 3975 29050 3975
+Wire Wire Line
+	29275 4175 29050 4175
+Wire Notes Line
+	27750 2225 27750 8950
+Wire Notes Line
+	27750 8950 37750 8950
+Wire Notes Line
+	37750 8950 37750 2225
+Wire Notes Line
+	37750 2225 27750 2225
+Wire Wire Line
+	2950 12950 2950 13050
+Wire Wire Line
+	24125 5050 24125 5150
+Connection ~ 24125 5150
+Connection ~ 21050 4450
+Wire Wire Line
+	5700 3225 5700 3425
+Connection ~ 5700 3425
+Wire Wire Line
+	3075 7375 3075 7125
+Wire Wire Line
+	2675 8175 2675 8225
+Connection ~ 2675 8225
+Wire Wire Line
+	34600 7600 34825 7600
+Wire Wire Line
+	34600 7500 34775 7500
+Wire Wire Line
+	34775 7500 34775 7450
+Wire Wire Line
+	34775 7450 34825 7450
+Wire Wire Line
+	34600 7400 34775 7400
+Wire Wire Line
+	34775 7400 34775 7300
+Wire Wire Line
+	34775 7300 34825 7300
+Wire Wire Line
+	34600 7300 34725 7300
+Wire Wire Line
+	34725 7300 34725 7150
+Wire Wire Line
+	34725 7150 34825 7150
+Wire Wire Line
+	34600 7700 34775 7700
+Wire Wire Line
+	34775 7700 34775 7750
+Wire Wire Line
+	34775 7750 34825 7750
+Wire Wire Line
+	34600 7800 34775 7800
+Wire Wire Line
+	34775 7800 34775 7900
+Wire Wire Line
+	34775 7900 34825 7900
+Wire Wire Line
+	34600 7900 34725 7900
+Wire Wire Line
+	34725 7900 34725 8050
+Wire Wire Line
+	34725 8050 34825 8050
+Wire Wire Line
+	34600 8000 34675 8000
+Wire Wire Line
+	34675 8000 34675 8200
+Wire Wire Line
+	34675 8200 34825 8200
+Wire Wire Line
+	33300 7400 33225 7400
+Wire Wire Line
+	33225 7400 33225 7150
+Connection ~ 3075 7375
+Wire Wire Line
+	26175 13875 26075 13875
+Wire Notes Line
+	24775 12425 24775 16775
+Connection ~ 20725 4925
+Wire Wire Line
+	21675 5225 21400 5225
+Wire Wire Line
+	21400 5225 21400 5475
+Wire Wire Line
+	21400 5475 21250 5475
+Connection ~ 21250 5475
+Wire Wire Line
+	21675 5325 21450 5325
+Wire Wire Line
+	21450 5325 21450 5525
+Wire Wire Line
+	21450 5525 21300 5525
+Connection ~ 21300 5525
+Wire Wire Line
+	21675 5425 21500 5425
+Wire Wire Line
+	21500 5425 21500 5575
+Wire Wire Line
+	21500 5575 21200 5575
+Connection ~ 21200 5575
+Wire Wire Line
+	21675 5525 21525 5525
+Wire Wire Line
+	21525 5525 21525 5675
+Wire Wire Line
+	21525 5675 21100 5675
+Connection ~ 21100 5675
+Wire Wire Line
+	21675 5625 21575 5625
+Wire Wire Line
+	21575 5625 21575 5775
+Wire Wire Line
+	21575 5775 21150 5775
+Connection ~ 21150 5775
+Wire Wire Line
+	21775 6200 21725 6200
+Wire Wire Line
+	21725 6200 21725 6925
+Connection ~ 21725 6925
+Wire Wire Line
+	21775 6100 21650 6100
+Wire Wire Line
+	21650 6100 21650 6425
+Connection ~ 21650 6425
+Wire Wire Line
+	21775 6000 21575 6000
+Wire Wire Line
+	21575 6000 21575 6325
+Connection ~ 21575 6325
+Wire Wire Line
+	21775 5900 21400 5900
+Connection ~ 21400 6225
+Wire Wire Line
+	21775 7125 21650 7125
+Wire Wire Line
+	21650 7125 21650 6525
+Connection ~ 21650 6525
+Wire Wire Line
+	21775 7225 21575 7225
+Wire Wire Line
+	21575 7225 21575 6725
+Connection ~ 21575 6725
+Wire Wire Line
+	21775 7325 21500 7325
+Wire Wire Line
+	21500 7325 21500 6625
+Connection ~ 21500 6625
+Wire Wire Line
+	21775 7425 21025 7425
+Wire Wire Line
+	21025 7425 21025 7125
+Connection ~ 21025 7125
+Connection ~ 21700 7525
+Connection ~ 21600 7625
+Connection ~ 21500 7725
+Connection ~ 21400 7825
+Wire Wire Line
+	21300 9100 21775 9100
+Connection ~ 21300 8725
+Wire Wire Line
+	21200 9200 21775 9200
+Connection ~ 21200 8825
+Wire Wire Line
+	21100 9300 21775 9300
+Connection ~ 21100 8925
+Wire Wire Line
+	21000 9400 21775 9400
+Connection ~ 21000 9025
+Wire Wire Line
+	21475 4250 21225 4250
+Wire Wire Line
+	21225 4250 21225 4450
+Connection ~ 21225 4450
+Wire Wire Line
+	20775 5500 20725 5500
+Wire Wire Line
+	20725 5500 20725 5425
+Connection ~ 20725 5425
+Wire Wire Line
+	2500 7375 3075 7375
+Wire Wire Line
+	2750 6975 2675 6975
+Wire Wire Line
+	15325 5650 15250 5650
+Wire Wire Line
+	12900 8775 12775 8775
+Wire Wire Line
+	19375 5250 19250 5250
+Wire Wire Line
+	4350 3325 4225 3325
+Wire Wire Line
+	4850 2675 4950 2675
+Wire Wire Line
+	2425 6975 2500 6975
+Wire Wire Line
+	2325 8175 2325 8225
+Connection ~ 2500 8225
+Wire Wire Line
+	6625 7850 6525 7850
+Wire Wire Line
+	3125 7125 3125 7150
+Wire Wire Line
+	3125 7150 3075 7150
+Connection ~ 3075 7150
+Wire Wire Line
+	14075 2825 14075 2875
+Wire Wire Line
+	14125 2825 14125 2875
+Connection ~ 14125 2875
+Wire Wire Line
+	24075 5050 24075 5150
+Connection ~ 24075 5150
+$Comp
+L AST_TEST TP3
+U 1 1 5C48E71C
+P 21050 4375
+F 0 "TP3" H 21050 4675 50  0001 C BNN
+F 1 "R/W" H 21050 4625 50  0000 C CNN
+F 2 "Asteroids:TEST_POINT" H 21050 4375 50  0001 C CNN
+F 3 "" H 21050 4375 50  0001 C CNN
+	1    21050 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21100 4375 21100 4450
+Connection ~ 21100 4450
+$Comp
+L AST_TEST TP4
+U 1 1 5C48F24C
+P 5650 3225
+F 0 "TP4" H 5650 3525 50  0001 C BNN
+F 1 "6MHz" H 5650 3475 50  0000 C CNN
+F 2 "Asteroids:TEST_POINT" H 5650 3225 50  0001 C CNN
+F 3 "" H 5650 3225 50  0001 C CNN
+	1    5650 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3225 5650 3275
+Wire Wire Line
+	5650 3275 5700 3275
+Connection ~ 5700 3275
+$Comp
+L AST_TEST TP7
+U 1 1 5C49058C
+P 2325 8175
+F 0 "TP7" H 2325 8475 50  0001 C BNN
+F 1 "GND" H 2325 8425 50  0000 C CNN
+F 2 "Asteroids:TEST_POINT" H 2325 8175 50  0001 C CNN
+F 3 "" H 2325 8175 50  0001 C CNN
+	1    2325 8175
+	1    0    0    -1  
+$EndComp
+$Comp
+L AST_TEST TP6
+U 1 1 5C4906D3
+P 2625 8175
+F 0 "TP6" H 2625 8475 50  0001 C BNN
+F 1 "GND" H 2625 8425 50  0000 C CNN
+F 2 "Asteroids:TEST_POINT" H 2625 8175 50  0001 C CNN
+F 3 "" H 2625 8175 50  0001 C CNN
+	1    2625 8175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2375 8175 2375 8225
+Connection ~ 2375 8225
+Wire Wire Line
+	2625 8175 2625 8225
+Connection ~ 2625 8225
+Text GLabel 9100 8325 1    60   Input ~ 0
++8.2V
+Connection ~ 9100 8375
+Text GLabel 8750 10825 1    60   Input ~ 0
+-8.2V
+$EndSCHEMATC

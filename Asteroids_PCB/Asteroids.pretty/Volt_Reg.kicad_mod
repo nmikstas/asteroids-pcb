@@ -1,0 +1,11 @@
+(module Volt_Reg (layer F.Cu) (tedit 5C491C71)
+  (fp_text reference REF** (at 0 3.81) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Volt_Reg (at 0 2.54) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole oval (at -2.54 0) (size 1.778 3.175) (drill 1.016) (layers *.Cu *.Mask))
+  (pad 2 thru_hole oval (at 0 0) (size 1.778 3.175) (drill 1.016) (layers *.Cu *.Mask))
+  (pad 3 thru_hole oval (at 2.54 0) (size 1.778 3.175) (drill 1.016) (layers *.Cu *.Mask))
+)

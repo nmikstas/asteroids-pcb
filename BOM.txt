@@ -1,0 +1,135 @@
+NOTES ON ASSEMBLY - Below is a list components that I replaced to get a better image quality:
+
+R115 (330 Ohm resistor) -> replace with 220 Ohm resistor
+R116 and R122 (10k Ohm resistors) -> replace with 3.3k Ohm resistors
+C97 and C105 (10 pF capacitors) -> replace with 6.8k Ohm resistors
+
+COMPONENT ID                              QUANTITY  PART NUMBER                   DESCRIPTION
+A_6                                       1         Digikey 450-1650-ND           Push button switch (two pins cut off)
+A_7, D_4, R_8                             3         Digikey 296-1668-5-ND         LS74 IC FF D-TYPE DUAL 1BIT 14DIP
+A_8                                       1         Digikey 296-1634-5-ND         LS10 IC GATE NAND 3CH 3-INP 14DIP
+A_9                                       1         Digikey 296-14711-5-ND        LS109 IC FF JK TYPE DUAL 1BIT 16DIP
+A_10, BC_10, C_10, DE_10, E_10, FH_10,    11        Digikey 296-1645-5-ND         LS157 IC QUAD 2-1 DATA SEL/MUX 16-DIP 
+F_3, H_3, J_3, K_3, F_6
+A_12, C_12                                2         Digikey 296-1781-5-ND         TL082 J-FET Amplifier 2 Circuit 8-PDIP 
+BC_12, E_12                               2         Digikey TL081IP-ND            TL081 J-FET Amplifier 1 Circuit 8-PDIP
+B_2, C_2                                  2         Digikey 296-1653-5-ND         LS244 8 bits Bus Buffer 3 State out
+B_4, D_5                                  2         Digikey 296-1665-5-ND         LS393 IC DUAL 4-BIT BINARY CNTR 14-DIP
+B_5, H_10, L_5                            3         Digikey 296-1629-5-ND         LS04 IC INVERTER 6CH 6-INP 14DIP
+B_6                                       1         Digikey 296-1643-5-ND         LS14 IC INVERTER SCHMITT 6CH 14DIP
+B_7, C_5, C_7, D_7, P_8 C_4               6         Digikey 296-1646-5-ND         LS161 IC 4-BIT SYNC COUNTER 16-DIP
+B_8, E_6, K_6, R_7                        4         Digikey 296-1633-5-ND         LS08 IC GATE AND 4CH 2-INP 14DIP
+B_9, M_5, N_6                             3         Digikey 296-1658-5-ND         LS32 IC GATE OR 4CH 2-INP 14DIP 
+B_10, D_10                                2         Digikey 296-1662-5-ND         LS374 IC FF D-TYPE SNGL 8BIT 20DIP 
+B_11, D_11                                2         Found on Ebay or AliExpress   AD561J IC DAC 10BIT MONO VOLT IN 16DIP 
+B_12, D_12, M_9, N_10, R_11               5         Digikey 296-9204-5-ND         4016B IC SWITCH QUAD 14DIP    
+C_1, DE_1, F_1, NP_3 C_8                  5         Found on Ebay or AliExpress   M2716 EPROM 2048 X 8 ****C_8 on adapter board****
+C_3                                       1         Found on Ebay or AliExpress   R65C02 8-bit microprocessor
+C_6, N_5                                  2         Digikey 296-1478-5-ND         LS00 IC GATE NAND 4CH 2-INP 14DIP 
+K_5, C_9, D_9, E_9, F_9, H_9, J_9         7         Digikey 296-14886-5-ND        LS191 IC SYNC UP/DOWN COUNTER 16-DIP
+D_2, E_2, M_4, N_4, P_4, R_4              6         Found on Ebay or AliExpress   2114 RAM 1024 X 4 
+D_6                                       1         Digikey 296-1627-5-ND         LS02 IC GATE NOR 4CH 2-INP 14DIP
+D_8, F_10, N_7, N_11, P_7                 5         Digikey 296-3664-5-ND         LS174 IC FF D-TYPE SNGL 6BIT 16DIP
+E_3, R_2                                  2         Digikey 296-1655-5-ND         LS245 Octal BUS Transceivers, 3 State out  
+E_4, L_3                                  2         Digikey 296-1640-5-ND         LS139 IC DUAL 2-4 LINE DECODER 16-DIP 
+E_5                                       1         Digikey 296-3670-5-ND         LS20 IC GATE NAND 2CH 4-INP 14DIP 
+E_7, E_8, L_6                             3         Digikey 296-27985-5-ND        LS42 IC 4-LINE BCD/DEC DECOD 16-DIP
+F_4, H_4, J_4                             3         Digikey 296-34025-5-ND        LS670 IC 4X4 REG FILE TRI-ST 16-DIP
+F_5, H_5, J_5                             3         Digikey 296-1649-5-ND         LS193 IC 4-BIT UP/DOWN COUNTER 16-DIP
+F_7, H_7, J_7, K_7                        4         Digikey 296-1657-5-ND         LS273 IC FF D-TYPE SNGL 8BIT 20DIP
+F_8, H_8, J_8, K_8                        4         Found on Ebay or AliExpress   SN5497 Rate Multiplier
+H_6, J_6                                  2         Digikey 296-3701-5-ND         LS367 IC BUF NON-INVERT 5.25V 16DIP
+J_10, L_10                                2         Digikey 296-14888-5-ND        LS251 IC 8-IN DATASELCT/MUX 3ST 16DIP 
+K_9, P_9, R_9                             3         Digikey 296-1647-5-ND         LS164 IC 8-BIT SHIFT REGISTER 14-DIP
+L_8, P_11                                 2         Digikey 296-9542-5-ND         LM324 IC OPAMP GP 1.2MHZ 14DIP 
+L_9, M_8, N_8, R_10                       4         Digikey 296-1411-5-ND         555 IC OSC SINGLE TIMER 100KHZ 8-DIP
+M_6                                       1         Digikey 296-31579-1-ND        HC283 ****IC 4BIT BINARY FULL ADDER 16SOIC on adapter board****
+M_7                                       1         Digikey 296-1648-5-ND         LS175 IC FF D-TYPE SNGL 4BIT 16DIP
+M_10                                      1         Digikey 296-14889-5-ND        LS259 IC 8-BIT ADDRESSBLE LATCH 16-DIP
+M_12                                      1         Digikey 450-1404-ND           SWITCH ROCKER DIP SPST 60MA 5V  
+N_9                                       1         Digikey 296-15069-5-ND        LS06 IC INVERTER OPEN COL 6CH 14DIP
+P_5                                       1         Digikey 296-1669-5-ND         LS86 IC GATE XOR 4CH 2-INP 14DIP  
+P_6                                       1         Digikey 296-33981-5-ND        LS253 IC 4-1 DATA SELECT/MUX 16-DIP
+P_10                                      1         Found on Ebay or AliExpress   NE566 VCO ****WARNING**** There are many Chinese knockoffs floating around that do not work! Avoid LM566!
+R_6                                       1         Digikey 450-1417-ND           SWITCH ROCKER DIP SPST 60MA 5V  
+U7805                                     1         Digikey 497-1443-5-ND         IC REG LINEAR 5V 1.5A TO220AB 
+U7812                                     1         Digikey LM340T-12/NOPB-ND     IC REG LINEAR 12V 1A TO220-3 
+U7815                                     1         Digikey 497-8352-5-ND         IC REG LINEAR 15V 1.5A TO220AB 
+U7915                                     1         Digikey LM7915CT/NOPB-ND      IC REG LINEAR -15V 1.5A TO220-3 
+Y1                                        1         Digikey X429-ND               CRYSTAL 12.0960MHZ SERIES T/H 
+C1, C2, C3, C4, C5, C6, C7, C8, C9, C10,  78        Digikey 399-4491-1-ND         CAP CER 0.1UF 50V X7R AXIAL  
+C11, C12, C13, C14, C15, C16, C17, C18, 
+C20, C21, C22, C23, C26, C28, C29, C30, 
+C31, C34, C41, C42, C43, C44, C49, C52, 
+C53, C57, C60, C61, C65, C66, C71, C72, 
+C73, C74, C75, C76, C77, C78, C79, C80, 
+C81, C82, C83, C84, C85, C91, C94, C111, 
+C112, C37, C51, C54, C63, C95, C96, C99, 
+C100, C103, C104, C107, C108, C114, C115, 
+C116, C120, C121, C122, C123
+C19                                       1         Digikey 1572-1048-ND          100µF 25V Aluminum Electrolytic Capacitors Axial
+C24, C35, C47, C50, C62, C113             6         Digikey 399-13735-1-ND        1uf CAP CER 1UF 50V X7R AXIAL
+C25, C70, C90, C92, C93                   5         Digikey 1572-1279-ND          CAP ALUM 1UF 20% 50V AXIAL
+C27, C32, C36, C40, C55, C58              6         Digikey 399-4453-1-ND         10000pF Unpolarized capacitor  
+C33                                       1         Digikey 399-14070-1-ND        .22uF Unpolarized capacitor  
+C38, C39, C45, C48                        4         Digikey 399-13620-ND          CAP TANT 10UF 20% 20V AXIAL 
+C46                                       1         Digikey 399-4512-1-ND         .047uf Unpolarized capacitor  
+C56                                       1         Digikey 399-4450-1-ND         1000pf Unpolarized capacitor  
+C59                                       1         Digikey 445-173538-1-ND       270pf Unpolarized capacitor  
+C64, C67, C68, C69                        4         Digikey 478-3154-1-ND         CAP CER 0.1UF 100V Z5U AXIAL 
+C86, C87                                  2         Digikey 1572-1496-ND          CAP ALUM 470UF 20% 35V AXIAL
+C88                                       1         Digikey 445-173545-1-ND       390pf Unpolarized capacitor  
+C89                                       1         Digikey 399-4447-1-ND         100pf Unpolarized capacitor  
+C97, C105                                 2         Digikey 478-7668-ND           10pf Unpolarized capacitor  
+C98, C106, C118, C119                     4         Digikey 399-4462-1-ND         220pf Unpolarized capacitor  
+C102, C110                                2         Digikey 399-9746-ND           68pf Unpolarized capacitor   
+C117                                      1         Digikey 1572-1393-ND          CAP ALUM 22UF 20% 35V AXIAL
+CR1, CR2, CR3, CR4, CR6, CR7, CR8, CR15   8         Digikey 1N914FS-ND            1N914 Diode
+CR5                                       1         Digikey 1080-1597-1-ND        LED red generic  
+CR9, CR10, CR11, CR12                     4         Digikey 641-1310-1-ND         1N4001 Diode  
+CR13, CR14                                2         Digikey 1N756ACSCT-ND         DIODE ZENER 8.2V 500MW DO35  
+L2, L3, L4, L5, L6, L7, L8, L12           8         Digikey 77F101J-TR-RCCT-ND    FIXED IND 100UH 275MA 2.5 OHM TH
+Plastic tabs                              7         Digikey RPC1553-ND            MOUNTING BUTTON 0.330" NYLN NRTL
+Q1, Q2, Q3, Q4, Q5, Q7, Q10, Q16, Q17     9         Digikey 2N3906-APCT-ND        Transistor PNP (general)  
+Q6, Q8, Q9, Q14, Q15                      5         Digikey 2N3904-APCT-ND        Transistor NPN (general)  
+Q11, Q12, Q13                             3         Digikey TIP122GOS-ND          Darlington Transistor NPN (general)
+R120, R126                                2         Digikey 3352H-103LF-ND        10k Potentiometer 
+R1, R2, R3, R4, R5, R6, R7, R8, R34,      12        Any 5% 1/4 Watt resistor      22K Resistor  
+R41, R45, R50
+R9, R10, R11, R12, R13, R14, R15, R16,    33        Any 5% 1/4 Watt resistor      10K Resistor
+R17, R18, R28, R33, R69, R110, R111,
+R130, R131, R38, R54, R58, R59, R60,
+R63, R70, R79, R80, R103, R116, R122,
+R135, R136, R138, R139
+R19, R20, R21, R22, R23, R24, R25, R26,   22        Any 5% 1/4 Watt resistor      470 Resistor
+R32, R87, R88, R89, R90, R91, R92, R93,
+R94, R95, R96, R97, R98, R99
+R27, R29, R86, R53, R73, R85, R132, R134  8         Any 5% 1/4 Watt resistor      1K Resistor  
+R30, R31, R115                            3         Any 5% 1/4 Watt resistor      330 Resistor  
+R35, R100                                 2         Any 5% 1/4 Watt resistor      1.2k Resistor  
+R36, R75, R117, R123, R133, R141          6         Any 5% 1/4 Watt resistor      2.2k Resistor
+R37, R137, R140, R144 R82, R102           6         Any 5% 1/4 Watt resistor      4.7k Resistor 
+R39, R64, R106, R107, R108                5         Any 5% 1/4 Watt resistor      3.9k Resistor  
+R40, R62, R67                             3         Any 5% 1/4 Watt resistor      5.6k Resistor  
+R42, R76, R114, R44, R48, R78, R83        7         Any 5% 1/4 Watt resistor      47k Resistor
+R43                                       1         Any 5% 1/4 Watt resistor      12k Resistor  
+R46, R81, R84, R143                       4         Any 5% 1/4 Watt resistor      100K Resistor  
+R47                                       1         Any 5% 1/4 Watt resistor      220K Resistor  
+R49 R104, R128, R129                      4         Any 5% 1/4 Watt resistor      6.8K Resistor
+R51, R146                                 2         Any 5% 1/4 Watt resistor      18K Resistor  
+R52                                       1         Any 5% 1/4 Watt resistor      33k Resistor   
+R55                                       1         Any 5% 1/4 Watt resistor      150 Resistor  
+R56, R65, R74, R142                       4         Any 5% 1/4 Watt resistor      3.3k Resistor
+R57, R61                                  2         Any 5% 1/4 Watt resistor      680  Resistor  
+R66                                       1         Any 5% 1/4 Watt resistor      2.7k Resistor  
+R68                                       1         Any 5% 1/4 Watt resistor      15k Resistor  
+R71                                       1         Any 5% 1/4 Watt resistor      68 Resistor  
+R72                                       1         Any 5% 1/4 Watt resistor      27 Resistor    
+R77                                       1         Any 5% 1/4 Watt resistor      39K Resistor  
+R101                                      1         Any 5% 1/4 Watt resistor      270k Resistor  
+R105, R109                                2         Any 5% 1/4 Watt resistor      120 Resistor  
+R112, R113                                2         Any 5% 1/4 Watt resistor      270 Resistor   
+R145                                      1         Any 5% 1/4 Watt resistor      56K Resistor
+T1, T2, T3, T4, T5, T6, T7, T8, T9, T10,  17        None                          Test point
+T11, T12, T13, T14, T15, T16, T17
+

@@ -1,0 +1,207 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 081
+D Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/lm358.pdf
+$ENDCMP
+#
+$CMP 082
+D Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/lm358.pdf
+$ENDCMP
+#
+$CMP 324
+D Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
+K quad opamp
+F http://www.ti.com/lit/ds/symlink/lm2902-n.pdf
+$ENDCMP
+#
+$CMP 555
+D Timer, DIP-8/SOIC-8/SSOP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/lm555.pdf
+$ENDCMP
+#
+$CMP AD561J
+D Priority Encodeur, 10 to 4
+K TTL ENCOD
+$ENDCMP
+#
+$CMP AM6012
+D Priority Encodeur, 10 to 4
+K TTL ENCOD
+$ENDCMP
+#
+$CMP AST_TEST
+D Testpoint, connection for test equipment
+K tp testpoint
+$ENDCMP
+#
+$CMP DIP20_DUMMY
+D Octal BUS Transceivers, 3 State out
+K TTL BUS 3State
+$ENDCMP
+#
+$CMP LS02
+D Quad Nor2
+K TTL Nor2
+$ENDCMP
+#
+$CMP LS04
+D Hex Inverseur
+K HCTMOS not inv
+$ENDCMP
+#
+$CMP LS06
+D Inverseur Open Collect
+K TTL not inv OpenCol
+$ENDCMP
+#
+$CMP LS10
+D Triple Nand3
+K TTL Nand3
+$ENDCMP
+#
+$CMP LS109
+D Double JK FlipFlop, Set & Reset
+K TTL JK
+$ENDCMP
+#
+$CMP LS139
+D Dual Decoder 1 of 4, Active low outputs
+K TTL DECOD4
+$ENDCMP
+#
+$CMP LS14
+D Hex Inverseur
+K HCTMOS not inv
+$ENDCMP
+#
+$CMP LS157
+D Quad 2 to 1 line Multiplexer
+K TTL MUX MUX2
+$ENDCMP
+#
+$CMP LS157_
+D Quad 2 to 1 line Multiplexer
+K TTL MUX MUX2
+$ENDCMP
+#
+$CMP LS164
+D Sychronous 4 bits programmable binary Counter
+K TTL CNT CNT4
+$ENDCMP
+#
+$CMP LS174_
+D Hex D-type FlipFlop, reset
+K TTL REG REG6 DFF
+$ENDCMP
+#
+$CMP LS175
+D 4 bits D FlipFlop, reset
+K TTL REG REG4 DFF
+$ENDCMP
+#
+$CMP LS191
+D 4 bits Synchronous 4 bits Up/Down BCD Counter
+K TTL CNT CNT4
+$ENDCMP
+#
+$CMP LS191_
+D 4 bits Synchronous 4 bits Up/Down BCD Counter
+K TTL CNT CNT4
+$ENDCMP
+#
+$CMP LS193
+D Synchronous 4 bits Up/Down (2 clk) counter
+K TTL CNT CNT4
+$ENDCMP
+#
+$CMP LS20
+D Dual Nand 4 inputs
+K TTL Nand4
+$ENDCMP
+#
+$CMP LS244
+D 8 bits Bus Buffer 3 State out
+K TTL Buffer BUS 3State
+$ENDCMP
+#
+$CMP LS245
+D Octal BUS Transceivers, 3 State out
+K TTL BUS 3State
+$ENDCMP
+#
+$CMP LS251
+D Multiplexer 8 to 1, 3 state Out
+K TTL MUX MUX8 3State
+$ENDCMP
+#
+$CMP LS253
+D Dual Multiplexer 4 to 1, 3 State Out
+K TTL MUX MUX4 3State
+$ENDCMP
+#
+$CMP LS259
+D 8 bits addressable latch
+K TTL REG DFF
+$ENDCMP
+#
+$CMP LS273
+D 8 bits D FlipFlop, reset
+K TTL DFF DFF8
+$ENDCMP
+#
+$CMP LS367
+D Hex Bus Driver 3 state Out
+K TTL Buffer BUS 3State
+$ENDCMP
+#
+$CMP LS374
+D 8 bits Register, 3 state Out
+K TTL DFF DFF8 REG 3State
+$ENDCMP
+#
+$CMP LS42
+D 4 to 10 line DECODER
+K TTL DECOD DECOD10
+$ENDCMP
+#
+$CMP LS670
+D 4 x 4 Register Files Open Collect.
+K TTL Register OpenCol
+$ENDCMP
+#
+$CMP LS83
+D 4 bits Full Adder
+K TTL ADD ARITH ALU
+$ENDCMP
+#
+$CMP S287N
+D Quad 2 to 1 multiplexer
+K TTL Mux MUX2
+$ENDCMP
+#
+$CMP SN5497
+D Quad 2 to 1 Multiplexer
+K TTL MUX MUX2
+$ENDCMP
+#
+$CMP SW_DIP_x08
+D 8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_x08
+D 8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+$ENDCMP
+#
+$CMP TEST
+D Testpoint, connection for test equipment
+K tp testpoint
+$ENDCMP
+#
+#End Doc Library
