@@ -1,2 +1,2 @@
 # asteroids-pcb
-PCB source for the original Ateroids arcade game
+PCB source for the original Asteroids arcade game
