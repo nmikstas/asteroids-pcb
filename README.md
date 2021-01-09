@@ -1,5 +1,5 @@
 # asteroids-pcb
-PCB source for the original Asteroids arcade game. This is a reproduction of a rev. 2 PCB. There are two sets of gerber files: the main Asteroids PCB and a small adapter board for IS 8C. 8C was a masked ROM that is no longer available. The adapter PCB will allow a 2716 EPROM to be used in it's place. A 28C16A-25 flash ROM will also work.
+PCB source for the original Asteroids arcade game. This is a reproduction of a rev. 2 PCB. There are two sets of gerber files: the main Asteroids PCB and a small adapter board for IC 8C. 8C was a masked ROM that is no longer available. The adapter PCB will allow a 2716 EPROM to be used in it's place. A 28C16A-25 flash ROM will also work.
 
 # NOTE
 This project is part of my project portfolio: https://nmikstas.github.io/portfolio/
