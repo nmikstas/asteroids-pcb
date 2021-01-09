@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ROM_to_2716)(type KiCad)(uri D:/work/asteroids-pcb/ROM_to_2716)(options "")(descr ""))
+)

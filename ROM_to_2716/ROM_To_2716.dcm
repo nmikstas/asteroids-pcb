@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2716A
+D REPROM 2KO
+K REPTOM 2KO
+$ENDCMP
+#
+$CMP GND_
+D GROUND power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+#End Doc Library
